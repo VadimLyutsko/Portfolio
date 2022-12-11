@@ -1,0 +1,43 @@
+.contactsBlock {
+    background-color: #0e3c5a;
+}
+
+.contacts {
+    background-color: #abc997;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid;
+    margin: 0 5%;
+}
+
+.contactsForm {
+    background-color: #32b9b9;
+    width: 50%;
+    min-height: 10vh;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.miniLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    height: 25px;
+    width: 25px;
+}
+
+.inputForm {
+    /*margin-bottom: 2.5%;*/
+}
+
+.footerText {
+    width: 250px;
+    background-color: #a93e3e;
+}

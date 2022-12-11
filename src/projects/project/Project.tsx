@@ -9,6 +9,7 @@ export const Project: React.FC<SkillPropsType> = ({icon, title, description}) =>
             <div
                 style={{backgroundImage: `url(${icon})`}}
                 className={style.icon}>
+                <button className={style.projectButton}>Посмотреть</button>
             </div>
             <h3 className={style.title}>{title}</h3>
             <span className={style.description}>

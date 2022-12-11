@@ -1,5 +1,5 @@
 .skill {
-    width: 400px;  /* Хочу размеры больше, пофиксим мед-запросами*/
+    width: 400px; /* Хочу размеры больше, пофиксим мед-запросами*/
     background-color: #0e3c5a;
     display: flex;
     flex-direction: column;
@@ -9,6 +9,9 @@
 }
 
 .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 250px;
     background-color: #3a3f62;
@@ -16,10 +19,6 @@
     background-position: center;
 }
 
-/*.icon img {*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*}*/
 
 .title {
     background-color: #b08585;
@@ -28,4 +27,9 @@
 .description {
     background-color: #966262;
     padding: 5px;
+}
+
+.projectButton {
+    width: 150px;
+    border-radius: 25px;
 }

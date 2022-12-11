@@ -13,6 +13,9 @@ export const Skills = () => {
                     <Skill/>
                     <Skill/>
                     <Skill/>
+                    <Skill/>
+                    <Skill/>
+                    <Skill/>
                 </div>
             </div>
         </div>

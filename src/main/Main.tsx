@@ -4,11 +4,16 @@ import style from './Main.module.css';
 export const Main = () => {
     return (
         <div className={style.main}>
-            <a href="">Главная</a>
-            <a href="">Что-то еще</a>
-            <a href="">Проекты</a>
-            <a href="">Что-то еще</a>
-            <a href="">На English</a>
+            <div className={style.container}>
+                <div className={style.text}>
+                    <span>Some text in Main</span>
+                    <h1>Text H1</h1>
+                    <p>some link</p>
+                </div>
+                <div className={style.photo}>
+                    <img src="https://avavatar.ru/images/full/26/pCIuqKJZv55Tz6Za.jpg" alt=""/>
+                </div>
+            </div>
         </div>
     );
 };

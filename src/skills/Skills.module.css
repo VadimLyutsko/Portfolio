@@ -3,20 +3,20 @@
     background-color: #a9aecc;
 }
 
-.title {
-    background-color: #8fcb5d;
-}
-
 .skillsContainer {
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: #8fcb5d;
 }
 
 .skills {
     border: 1px solid;
     width: 100%;
-    min-height: 300px;
-    background-color: #774e4e;
+    background-color: #899d49;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }

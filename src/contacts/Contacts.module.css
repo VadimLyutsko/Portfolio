@@ -23,6 +23,12 @@
 }
 
 .inputForm {
+    width: 100%;
+    margin-bottom: 2.5%;
+}
+
+.inputTextArea{
+    width: 100%;
     margin-bottom: 2.5%;
 }
 

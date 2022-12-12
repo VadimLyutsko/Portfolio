@@ -1,9 +1,9 @@
 import React from 'react';
 import style from './Project.module.css';
-import {SkillPropsType} from '../Projects';
+import {ProjectPropsType} from '../Projects';
 
 
-export const Project: React.FC<SkillPropsType> = ({icon, title, description}) => {
+export const Project: React.FC<ProjectPropsType> = ({icon, title, description}) => {
     return (
         <div className={style.skill}>
             <div

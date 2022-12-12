@@ -12,7 +12,7 @@ export const Main = () => {
                     <p>some link</p>
                 </div>
                 <div className={style.photo}>
-                    <img src="https://avavatar.ru/images/full/26/pCIuqKJZv55Tz6Za.jpg" alt=""/>
+                    <img src="https://i.pinimg.com/736x/a7/94/50/a79450796ef296bf93ef60971239a72f--beautiful-places.jpg" alt=""/>
                 </div>
             </div>
         </div>

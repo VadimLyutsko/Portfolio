@@ -3,7 +3,7 @@ import style from './Projects.module.css';
 import styleContainer from '../common/styles/Container.module.css';
 import {Project} from './project/Project';
 
-export type SkillPropsType = {
+export type ProjectPropsType = {
     description: string
     title: string
     icon: string
@@ -11,7 +11,7 @@ export type SkillPropsType = {
 }
 
 export const Projects = () => {
-    const skillsState :SkillPropsType[]=[
+    const projectState :ProjectPropsType[]=[
         {
             id: 1,
             title: 'Social network',
@@ -46,7 +46,7 @@ export const Projects = () => {
 
                 <div className={style.skills}>
                     {
-                        skillsState.map(skill =>
+                        projectState.map(skill =>
                             <div key={skill.id}>
                                 <Project description={skill.description}
                                        title={skill.title}

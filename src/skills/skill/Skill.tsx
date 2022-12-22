@@ -3,9 +3,9 @@ import style from './Skill.module.css';
 import {SkillPropsType} from '../Skills';
 
 
-export const Skill: React.FC<SkillPropsType> = ({icon, title, description}) => {
+export const Skill: React.FC<SkillPropsType> = ({icon, title, description, id}) => {
     return (
-        <div className={style.skill}>
+        <div key={id} className={style.skill}>
             <div className={style.icon}>
                 <img src={icon} alt=""/>
             </div>

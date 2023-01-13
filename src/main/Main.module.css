@@ -1,10 +1,15 @@
 .main {
     height: 100vh;
-    background-color: #a19696;
+    background-image: url('writing with soul.jpg');
+    background-size:cover;
+    opacity : 0.9;
 }
 
 .text {
-    width: 300px;
+    position: absolute;
+    left: 15%;
+    width: 750px;
+    min-height: 500px;
     background-color: #c9c0c0;
 }
 

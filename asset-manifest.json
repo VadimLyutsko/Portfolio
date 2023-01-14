@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.105a02a5.css",
+    "main.css": "/Portfolio/static/css/main.20013260.css",
     "main.js": "/Portfolio/static/js/main.281dc696.js",
     "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/writing with soul.jpg": "/Portfolio/static/media/writing with soul.848ca518990d9767c1b3.jpg",
+    "static/media/Untitled.png": "/Portfolio/static/media/Untitled.69938372700c6037dd1f.png",
     "index.html": "/Portfolio/index.html",
-    "main.105a02a5.css.map": "/Portfolio/static/css/main.105a02a5.css.map",
+    "main.20013260.css.map": "/Portfolio/static/css/main.20013260.css.map",
     "main.281dc696.js.map": "/Portfolio/static/js/main.281dc696.js.map",
     "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.105a02a5.css",
+    "static/css/main.20013260.css",
     "static/js/main.281dc696.js"
   ]
 }

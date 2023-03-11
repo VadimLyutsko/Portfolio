@@ -1,7 +1,40 @@
+ol, ul, menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .nav {
     display: flex;
-    justify-content: space-between;
-    border: 1px solid;
-    margin-right: 5%;
-    width: 450px;
+    justify-content: space-evenly;
+    /*margin-right: 5%;*/
+    /*width: 70px;*/
+    height: 100vh;
+    position: fixed;
+    border-right-width: 1px;
+    border-color: rgb(255 255 255 / var(--tw-border-opacity));
+    --tw-border-opacity: 0.05;
+    --tw-bg-opacity: 1;
+    background-color: rgb(35 38 47 / var(--tw-bg-opacity));
+}
+
+.navLi{
+    background-color: #d79228;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #3a3737;
+}
+
+
+
+.navLi a{
+    text-decoration:none;
+    color: white;
+}
+
+.navLi a:active{
+    color: #0e3c5a;
 }

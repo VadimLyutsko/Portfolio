@@ -1,6 +1,6 @@
 .main {
     height: 100vh;
-    background-image: url('Untitled.png');
+    /*background-image: url('Untitled.png');*/
     background-size:cover;
     opacity : 0.9;
 }

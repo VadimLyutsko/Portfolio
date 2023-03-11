@@ -1,14 +1,21 @@
 import React from 'react';
 import style from './Nav.module.css';
+import logo from    './logo.svg'
 
 export const Nav = () => {
     return (
-        <div className={style.nav}>
-            <a href="">Главная</a>
-            <a href="">Что-то еще</a>
-            <a href="">Проекты</a>
-            <a href="">На English</a>
-        </div>
+        <nav className={style.nav}>
+            <ul>
+                <li className={style.navLi}><a href=""><img src={logo} alt=""/></a></li>
+                <li className={style.navLi}><a href="">Главная</a></li>
+                <li className={style.navLi}><a href="">Главная</a></li>
+                <li className={style.navLi}><a href="">Главная</a></li>
+                <li className={style.navLi}><a href="">Главная</a></li>
+                <li className={style.navLi}><a href="">Главная</a></li>
+            </ul>
+        </nav>
+
+
     );
 };
 

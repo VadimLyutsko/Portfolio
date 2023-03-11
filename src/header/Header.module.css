@@ -2,11 +2,13 @@
     display: flex;
     justify-content: space-between;
     min-height: 54px;
-    height: 50px;
-    --tw-bg-opacity:1;
-    background-color: rgb(24 25 29 / var( --tw-bg-opacity));
+    height: 80px;
+    /*--tw-bg-opacity:1;*/
+    /*background-color: rgb(24 25 29 / var( --tw-bg-opacity));*/
+    position: absolute;
+    /*opacity: 0.1;*/
+    width: 100%;
 }
-
 
 .personalData{
     /*background-color: #9a5151;*/
@@ -17,7 +19,7 @@
     align-items: center;
     color: #FFFFFF;
     margin: 0 80px;
-    font: italic small-caps bold 16px/2  Arial;
+    font: italic  all-petite-caps bold 16px/2   Arial;
     font-size: 0.975rem;
     line-height: 1.25rem;
     font-weight: 400;

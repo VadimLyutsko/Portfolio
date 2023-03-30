@@ -1,39 +1,43 @@
 .main {
     width: 100%;
     height: 100vh;
-    --tw-bg-opacity:1;
-    background-color: rgb(24 25 29 / var( --tw-bg-opacity));
+    --tw-bg-opacity: 1;
+    background-color: rgb(24 25 29 / var(--tw-bg-opacity));
     display: flex;
 }
 
-.bannerContainer{
+.bannerContainer {
+    margin-left: 50%;
+    /*background-color: #706565;*/
     width: 880px;
-    height: 1057px;
+    /*height: 957px;*/
     background-image: url('home-banner.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 1000px)
-{
-    .bannerContainer{
-       /*Что произойдет*/
+@media screen and (max-width: 1000px) {
+    .bannerContainer {
+        /*Что произойдет*/
+        /* display: none;*/
     }
 }
 
 
 .container {
-    /*position: absolute;*/
+    position: absolute;
     width: 650px;
     height: 400px;
     /*background-color: #706565;*/
     /*margin-left: 80px;*/
     margin-left: 15%;
     /*margin-top: 25px;*/
-    margin-top: 2%;
-    padding: 70px 10px;
+    margin-top: 7%;
+    padding: 50px 10px;
 }
 
 
-.container h6,p {
+.container h6, p {
     margin: 0 0 20px;
     font-size: 20px;
     font-weight: 400;
@@ -47,3 +51,59 @@
     color: white;
 }
 
+
+.title {
+    height: 50px;
+    width: 230px;
+    font-size: 30px;
+    color: white;
+    /*background-color: #ab9999;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -28px;
+}
+
+.description {
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    color: white;
+    /*background-color: #cccccc;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description a {
+    text-decoration: none;
+}
+
+.captionLink {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.title {
+    transition: all .4s ease;
+}
+
+.description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all .4s ease;
+}
+
+.captionLink:hover .description {
+    transform: translateX(0);
+    transition: all .4s ease;
+}
+
+.captionLink:hover .title {
+    transform: translateX(100%);
+    transition: all .4s ease;
+
+}

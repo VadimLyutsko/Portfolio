@@ -9,7 +9,7 @@ export const Contacts = () => {
         <div className={style.contactsBlock}>
 
             <div className={style.contacts}>
-                <h3> Title from props (in feature) H3</h3>
+                <h3> Contacts form</h3>
                 <form className={style.contactsForm}>
                     <input className={style.inputForm} type="text"/>
                     <input className={style.inputForm} type="text"/>

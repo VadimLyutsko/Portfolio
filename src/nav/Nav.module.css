@@ -20,6 +20,12 @@ ol, ul, menu {
     background-color: rgb(35 38 47 / var(--tw-bg-opacity));
 }
 
+@media screen and (max-width: 720px) {
+    .nav {
+        display: none;
+    }
+}
+
 .nav img{
     width: 60px;
     height: 60px;
@@ -28,7 +34,7 @@ ol, ul, menu {
 
 
 .navLiLogo{
-    background-color: #d79228;
+    background-color: #eea40f;
     width: 80px;
     height: 60px;
     display: flex;

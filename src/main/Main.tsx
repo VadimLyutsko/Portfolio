@@ -8,7 +8,7 @@ export const Main = () => {
                 <h6>👋 Hello, My name is</h6>
                 <h1 className={style.myName}>Vadim Lyutsko</h1>
                 <p>I'M A FRONTEND DEVELOPER</p>
-                <p style={{width: '75%'}}>
+                <p  className={style.myDescription}>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ea, odio odit officiis quisquam sed.
                     Aperiam, autem consequatur deleniti eveniet harum ipsa laudantium libero molestias quas similique
                     soluta, unde voluptate.

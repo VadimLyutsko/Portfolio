@@ -1,6 +1,6 @@
 .skill {
     width: 400px; /* Хочу размеры больше, пофиксим мед-запросами*/
-    background-color: #0e3c5a;
+    /*background-color: #0e3c5a;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,24 +22,31 @@
 
 
 .title {
-    background-color: #b08585;
+    /*background-color: #b08585;*/
+    color: white;
 }
 
 .description {
-    background-color: #966262;
-    padding: 5px;
+    /*background-color: #966262;*/
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+
 }
 
 .projectButton {
     background-color: rgb(255, 255, 255,0.5);
-    width: 150px;
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    width: 250px;
     border-radius: 25px;
     border: none;
 }
 
 .projectButton:hover{
     background-color: rgb(0, 3, 16,0.5);
-    width: 150px;
+    width: 250px;
     border-radius: 25px;
     color: white;
     border: none;

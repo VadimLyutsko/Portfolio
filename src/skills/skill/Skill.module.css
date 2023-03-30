@@ -1,6 +1,7 @@
 .skill {
     width: 300px;
-    background-color: #0e3c5a;
+    --tw-bg-opacity: 1;
+    background-color: rgb(24 25 29 / var(--tw-bg-opacity));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +12,6 @@
 .icon {
     width: 250px;
     height: 150px;
-    background-color: #3a3f62;
 }
 
 .icon img {
@@ -20,9 +20,13 @@
 }
 
 .title {
-
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
 }
 
 .description {
-
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
 }

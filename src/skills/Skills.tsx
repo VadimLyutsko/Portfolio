@@ -47,7 +47,7 @@ export const Skills = () => {
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
 
-                <h2 className={style.title}>Some Header of Skills H2</h2>
+                <h2 className={style.title}>Skills </h2>
 
                 <div className={style.skills}>
                     {

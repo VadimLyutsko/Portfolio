@@ -1,9 +1,11 @@
 .contactsBlock {
-    background-color: #c0a18e;
+    --tw-bg-opacity: 1;
+    background-color: rgb(24 25 29 / var(--tw-bg-opacity));
 }
 
 .contacts {
-    background-color: #a6aada;
+    --tw-bg-opacity: 1;
+    background-color: rgb(24 25 29 / var(--tw-bg-opacity));
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -13,8 +15,15 @@
     margin: 0 5%;
 }
 
+.contacts h3{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+
 .contactsForm {
-    background-color: #8fcb5d;
+    --tw-bg-opacity: 1;
+    background-color: rgb(20 20 22 / var(--tw-bg-opacity));
     width: 50%;
     border: 1px solid;
     display: flex;
@@ -34,6 +43,9 @@
 
 .contactsButton {
     width: 150px;
-    background-color: #474b73;
+    background-color:white;
     border-radius: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
 }

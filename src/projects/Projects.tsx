@@ -33,7 +33,7 @@ export const Projects = () => {
         {
             id: 4, title: 'Improved_counter',
             icon: 'https://www.pinclipart.com/picdir/big/253-2537838_barcode-transparent-png-stickpng-abarcode-free-online-clipart.png',
-            description: 'Description from props Description from props Description from props '
+            description: ' Description from props '
         },
 
     ];

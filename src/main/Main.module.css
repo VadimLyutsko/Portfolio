@@ -30,7 +30,7 @@
     height: 400px;
     /*background-color: #706565;*/
     /*margin-left: 80px;*/
-    margin-left: 15%;
+    margin-left: 10%;
     /*margin-top: 25px;*/
     margin-top: 7%;
     padding: 50px 10px;
@@ -48,6 +48,14 @@
     margin: 0 0 20px;
     font-size: 70px;
     font-weight: 600;
+    color: white;
+}
+
+.myDescription{
+    width: 75%;
+    margin: 0 0 20px;
+    font-size: 15px;
+    font-weight: 400;
     color: white;
 }
 

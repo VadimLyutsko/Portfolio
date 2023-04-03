@@ -1,0 +1,26 @@
+.switch {
+    /*background-color: #605d5d;*/
+    width: 80px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid #2e313b;*/
+    color: #fdfdfe;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.switchButton {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fdfdfe;
+    background-color: #970707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

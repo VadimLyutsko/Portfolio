@@ -17,7 +17,6 @@ export const Container = () => {
             <Projects/>
             <Contacts/>
             <Footer/>
-            portfolio
         </>
     );
 };

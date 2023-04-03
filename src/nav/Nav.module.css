@@ -8,7 +8,8 @@ ol, ul, menu {
     /*z-index: 5;*/
     /*margin-top: -80px;*/
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
     /*margin-right: 5px;*/
     width: 80px;
     height: 100vh;
@@ -34,7 +35,7 @@ ol, ul, menu {
 
 
 .navLiLogo{
-    background-color: #eea40f;
+    background-color: #fd9202;
     width: 80px;
     height: 60px;
     display: flex;
@@ -43,20 +44,27 @@ ol, ul, menu {
     border: 1px solid #3a3737;
 }
 
-.navLi{
-    background-color: #605d5d;
+.navItem{
+    /*background-color: #605d5d;*/
     width: 80px;
     height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #3a3737;
+    border: 1px solid #2e313b;
+    color: #fdfdfe;
+    font-size: 18px;
+}
+
+.navItem > .active {
+    /*border-bottom: 1px solid #ffffff;*/
+    color: #fd9202;
 }
 
 
-.navLi a{
-    text-decoration:none;
-    color: white;
-}
+/*.navLi a{*/
+/*    text-decoration:none;*/
+/*    color: #fd9202;*/
+/*}*/
 
 

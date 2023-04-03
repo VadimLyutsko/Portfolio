@@ -14,18 +14,18 @@ import {Container} from './container/Container';
 function App() {
     return (
         <div className="App">
-            {/*<Header/>*/}
-            {/*<Nav/>*/}
-            {/*<Main/>*/}
-            {/*<Skills/>*/}
-            {/*<Projects/>*/}
-            {/*<Contacts/>*/}
-            {/*<Footer/>*/}
-            <Routes>
-                <Route path={'/'} element={<Container/>}/>
-                <Route path="404" element={<Error404/>}/>
-                <Route path="*" element={<Navigate to={'404'}/>}/>
-            </Routes>
+            <Header/>
+            <Nav/>
+            <Main/>
+            <Skills/>
+            <Projects/>
+            <Contacts/>
+            <Footer/>
+            {/*<Routes>*/}
+            {/*    <Route path={'/'} element={<Container/>}/>*/}
+            {/*    <Route path="404" element={<Error404/>}/>*/}
+            {/*    <Route path="*" element={<Navigate to={'404'}/>}/>*/}
+            {/*</Routes>*/}
         </div>
     );
 }

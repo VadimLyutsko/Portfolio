@@ -6,7 +6,7 @@ export const Contacts = () => {
 
 
     return (
-        <div className={style.contactsBlock}>
+        <div id={'contacts'} className={style.contactsBlock}>
 
             <div className={style.contacts}>
                 <h3> Contacts form</h3>

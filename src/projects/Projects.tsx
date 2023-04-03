@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Projects.module.css';
-import styleContainer from '../common/styles/Container.module.css';
+import styleContainer from '../container/Container.module.css';
 import {Project} from './project/Project';
 
 export type ProjectPropsType = {
@@ -11,7 +11,7 @@ export type ProjectPropsType = {
 }
 
 export const Projects = () => {
-    const projectState :ProjectPropsType[]=[
+    const projectState: ProjectPropsType[] = [
         {
             id: 1,
             title: 'Social network',
@@ -39,7 +39,7 @@ export const Projects = () => {
     ];
 
     return (
-        <div className={style.skillsBlock}>
+        <div id={'projects'} className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
 
                 <h2 className={style.title}>My projects</h2>
@@ -49,9 +49,9 @@ export const Projects = () => {
                         projectState.map(skill =>
                             <div key={skill.id}>
                                 <Project description={skill.description}
-                                       title={skill.title}
-                                       icon={skill.icon}
-                                       id={skill.id}/>
+                                         title={skill.title}
+                                         icon={skill.icon}
+                                         id={skill.id}/>
                             </div>)
                     }
                 </div>

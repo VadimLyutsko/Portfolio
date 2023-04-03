@@ -4,7 +4,7 @@ import CustomButton from '../custom/CustomButton';
 
 export const Header = () => {
     return (
-        <div className={style.header}>
+        <div id={'me'} className={style.header}>
 
             <span className={style.personalData}>
                 <span>{`+ 375 29 576-58-41`}</span>
@@ -13,8 +13,8 @@ export const Header = () => {
             </span>
 
             <span className={style.buttonContainer}>
-                <CustomButton isActive = {true} title={'EN'}/>
-                <CustomButton isActive = {false} title={'RU'}/>
+                <CustomButton isActive={true} title={'EN'}/>
+                <CustomButton isActive={false} title={'RU'}/>
             </span>
         </div>
     );

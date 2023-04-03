@@ -6,7 +6,7 @@ export const Footer = () => {
 
 
     return (
-        <div className={style.contactsBlock}>
+        <div id={'footer'} className={style.contactsBlock}>
 
         <div className={style.contacts}>
             <h2> Vadim Lyutsko</h2>

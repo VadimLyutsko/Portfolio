@@ -25,17 +25,6 @@ export const Header: React.FC<HeaderPropsType> = (
     return (
 
         <>
-            {/*<div className="switcher">*/}
-            {/*    /!* Выпадающий список для выбора языка *!/*/}
-            {/*    Languages <select onChange={handleChange} value={currentLocale}>*/}
-            {/*    {languages.map(({name, code}) => (*/}
-            {/*        <option key={code} value={code}>*/}
-            {/*            {name}*/}
-            {/*        </option>*/}
-            {/*    ))}*/}
-            {/*</select>*/}
-            {/*</div>*/}
-
             <div id={'me'} className={style.header}>
 
             <span className={style.personalData}>
@@ -43,7 +32,7 @@ export const Header: React.FC<HeaderPropsType> = (
                     <a href="tel:+375295765841">    {`+ 375 29 576-58-41`}</a>
                 </span>
                 <span>
-                    <a href = "mailto:       vadim_lyutsko@mail.ru">      vadim_lyutsko@mail.ru</a>
+                    <a href="mailto:       vadim_lyutsko@mail.ru">      vadim_lyutsko@mail.ru</a>
                 </span>
             </span>
 

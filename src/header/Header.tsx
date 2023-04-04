@@ -4,7 +4,6 @@ import CustomButton from '../custom/CustomButton';
 import {LOCALES} from '../i18n/locales';
 
 type HeaderPropsType = {
-    locale?: string
     handleChange: (value: string) => void
     currentLocale?: string
 }
@@ -13,7 +12,6 @@ export const Header: React.FC<HeaderPropsType> = (
     {
         currentLocale,
         handleChange,
-        locale
     }) => {
 
     const languages = [
@@ -41,9 +39,12 @@ export const Header: React.FC<HeaderPropsType> = (
             <div id={'me'} className={style.header}>
 
             <span className={style.personalData}>
-                <span>{`+ 375 29 576-58-41`}</span>
-                <span>Vadim_lyutsko@mail.ru</span>
-
+                <span>
+                    <a href="tel:+375295765841">    {`+ 375 29 576-58-41`}</a>
+                </span>
+                <span>
+                    <a href = "mailto:       vadim_lyutsko@mail.ru">      vadim_lyutsko@mail.ru</a>
+                </span>
             </span>
 
 

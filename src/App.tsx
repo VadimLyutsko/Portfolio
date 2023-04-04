@@ -31,7 +31,6 @@ function App() {
                       defaultLocale={LOCALES.ENGLISH}>
             <div className="App">
                 <Header
-                    locale={locale}
                     handleChange={handleChange}
                     currentLocale={currentLocale}/>
                 <Nav/>

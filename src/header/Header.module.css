@@ -20,9 +20,15 @@
     color: #FFFFFF;
     margin: 0 6.5%;
     font: italic  all-petite-caps bold 16px/2   Arial;
-    font-size: 0.975rem;
-    line-height: 1.25rem;
+    /*font-size: 0.975rem;*/
+    /*line-height: 1.25rem;*/
     font-weight: 400;
+}
+
+.personalData a{
+    text-decoration: none;
+    color: #FFFFFF;
+
 }
 
 .buttonContainer{

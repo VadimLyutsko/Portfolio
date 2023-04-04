@@ -3,6 +3,8 @@ import style from './Nav.module.css';
 import logo from './logo.svg'
 import {Link, animateScroll as scroll} from 'react-scroll';
 import {DesignSwitch} from '../DesignSwitch/DesignSwitch';
+import {FormattedMessage} from 'react-intl'
+
 
 export const Nav = () => {
     return (
@@ -30,7 +32,7 @@ export const Nav = () => {
                         offset={-70}
                         duration={500}
                     >
-                        Skills
+                        <FormattedMessage id="skills"/>
                     </Link>
                 </li>
 
@@ -43,7 +45,7 @@ export const Nav = () => {
                         offset={-70}
                         duration={500}
                     >
-                        Projects
+                        <FormattedMessage id="projects"/>
                     </Link>
                 </li>
 
@@ -56,7 +58,7 @@ export const Nav = () => {
                         offset={-70}
                         duration={500}
                     >
-                        Contacts
+                        <FormattedMessage id="contacts"/>
                     </Link>
                 </li>
 
@@ -70,7 +72,7 @@ export const Nav = () => {
                         offset={-70}
                         duration={500}
                     >
-                        Footer
+                        <FormattedMessage id="footer"/>
                     </Link>
                 </li>
             </ul>

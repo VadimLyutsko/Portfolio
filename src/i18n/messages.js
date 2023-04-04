@@ -8,9 +8,14 @@ export const messages = {
         my_prof:
             'I\'M A FRONTEND DEVELOPER',
         about_me: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ea, odio odit officiis quisquam sed. Aperiam, autem consequatur deleniti eveniet harum ipsa laudantium libero molestias quas similique soluta, unde voluptate.',
+        download_cv: 'Download CV',
         // меню
-        download_cv: 'Download CV'
+        skills:'Skills',
+        projects:'Projects',
+        contacts:'Contacts',
+        footer:'Footer'
     },
+
     [LOCALES.RUSSIAN]: {
         hello_to: '👋 Привет, Меня зовут',
         my_name:
@@ -18,7 +23,11 @@ export const messages = {
         my_prof:
             'Я РАЗРАБОТЧИК ИНТЕРФЕЙСА',
         about_me: 'Что-то обо мне - заглушка. Что-то обо мне - заглушка. Что-то обо мне - заглушка. Что-то обо мне - заглушка. Что-то обо мне - заглушка. Что-то обо мне - заглушка. Что-то обо мне - заглушка. Что-то обо мне - заглушка. ',
+                download_cv: 'Скачать резюме',
         // меню
-        download_cv: 'Скачать резюме'
+        skills:'Навыки',
+        projects:'Проекты',
+        contacts:'Контакты',
+        footer:'Подвал'
     }
 }

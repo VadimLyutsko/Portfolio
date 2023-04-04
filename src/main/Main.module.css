@@ -60,7 +60,7 @@
 }
 
 
-.title {
+.titleEn {
     height: 50px;
     width: 230px;
     font-size: 30px;
@@ -70,6 +70,18 @@
     align-items: center;
     justify-content: center;
     margin-left: -28px;
+}
+
+.titleRu{
+    height: 50px;
+    width: 230px;
+    font-size: 30px;
+    color: white;
+    /*background-color: #ab9999;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -2px;
 }
 
 .description {
@@ -93,7 +105,11 @@
     position: relative;
 }
 
-.title {
+.titleRu {
+    transition: all .4s ease;
+}
+
+.titleEn {
     transition: all .4s ease;
 }
 
@@ -110,8 +126,12 @@
     transition: all .4s ease;
 }
 
-.captionLink:hover .title {
+.captionLink:hover .titleRu {
     transform: translateX(100%);
     transition: all .4s ease;
+}
 
+.captionLink:hover .titleEn {
+    transform: translateX(100%);
+    transition: all .4s ease;
 }

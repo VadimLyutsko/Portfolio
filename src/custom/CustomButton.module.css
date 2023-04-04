@@ -12,6 +12,11 @@
     background-color: #fd9202;
     width: 45px;
     margin: 1em;
+    cursor: pointer ;
+}
+
+.colorCustomButton :hover{
+    background-color: #ffffff;
 }
 
 .unColorCustomButton {
@@ -28,4 +33,9 @@
     background-color: rgb(35 38 47 / var(--tw-bg-opacity));
     width: 45px;
     margin: 1em;
+    cursor: pointer ;
+}
+
+.unColorCustomButton :hover{
+    background-color: #ffffff;
 }

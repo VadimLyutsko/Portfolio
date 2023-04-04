@@ -42,6 +42,7 @@ ol, ul, menu {
     justify-content: center;
     align-items: center;
     border: 1px solid #3a3737;
+    cursor: pointer;
 }
 
 .navItem{
@@ -54,6 +55,11 @@ ol, ul, menu {
     border: 1px solid #2e313b;
     color: #fdfdfe;
     font-size: 18px;
+    cursor: pointer;
+}
+
+.navItem :hover{
+    color: #fd9202;
 }
 
 .navItem > .active {

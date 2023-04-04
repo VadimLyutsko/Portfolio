@@ -8,9 +8,12 @@ import {Projects} from '../projects/Projects';
 import {Main} from '../main/Main';
 
 export const Container = () => {
+    const handleChange = ()=>{
+
+    }
     return (
         <>
-            <Header/>
+            <Header handleChange={handleChange}/>
             <Nav/>
             <Main/>
             <Skills/>

@@ -16,14 +16,19 @@ import {messages} from '../src/i18n/messages'
 
 function App() {
 
-    const locale = LOCALES.RUSSIAN
-    const [currentLocale, setCurrentLocale] = useState(locale)
+
+    const [currentLocale, setCurrentLocale] = useState(getInitialLocale())
 
     useEffect(() => {
         let languageFromLS = localStorage.getItem('language')
         languageFromLS && setCurrentLocale(languageFromLS)
-    },[locale])
+    }, [])
 
+    function getInitialLocale() {
+        // получаем сохраненные данные
+        const savedLocale = localStorage.getItem('locale')
+        return savedLocale || LOCALES.ENGLISH
+    }
 
     const handleLanguageChange = () => {
         let languageFromLS = localStorage.getItem('language')

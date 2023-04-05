@@ -38,7 +38,7 @@ export const Main:React.FC<MainPropsType> = ({currentLocale}) => {
                             <FormattedMessage id="download_cv"/>
                         </div>
                         <div className={style.description}>
-                            <a href="https://drive.google.com/file/d/1vz3RgpKKtAdfc_qKsBMjEpYfy69MWPhp/view?usp=share_link"> 👉
+                            <a target={'_blank'} href="https://drive.google.com/file/d/1vz3RgpKKtAdfc_qKsBMjEpYfy69MWPhp/view?usp=share_link"> 👉
                                 📝 👈 </a>
                         </div>
                     </a>

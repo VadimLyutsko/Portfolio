@@ -4,14 +4,14 @@ import CustomButton from '../custom/CustomButton';
 import {LOCALES} from '../i18n/locales';
 
 type HeaderPropsType = {
-    handleChange: (value: string) => void
+    setLanguageToLS: (value: string) => void
     currentLocale?: string
 }
 
 export const Header: React.FC<HeaderPropsType> = (
     {
         currentLocale,
-        handleChange,
+        setLanguageToLS,
     }) => {
 
     const languages = [
@@ -40,14 +40,14 @@ export const Header: React.FC<HeaderPropsType> = (
                 <span className={style.buttonContainer}>
 
                 <CustomButton
-                    handleChange={handleChange}
+                    setLanguageToLS={setLanguageToLS}
                     currentLocale={currentLocale}
                     title={'EN'}
                     language={'en-US'}
                 />
 
                 <CustomButton
-                    handleChange={handleChange}
+                    setLanguageToLS={setLanguageToLS}
                     currentLocale={currentLocale}
                     title={'RU'}
                     language={'ru-RU'}

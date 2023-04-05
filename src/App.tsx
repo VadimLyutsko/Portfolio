@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import './App.css';
 import {Header} from './header/Header';
 import {Main} from './main/Main';
@@ -16,14 +16,25 @@ import {messages} from '../src/i18n/messages'
 
 function App() {
 
-    const locale = LOCALES.ENGLISH
-
+    const locale = LOCALES.RUSSIAN
     const [currentLocale, setCurrentLocale] = useState(locale)
 
-    const handleChange = (value: any) => {
-        setCurrentLocale(value)
+    useEffect(() => {
+        let languageFromLS = localStorage.getItem('language')
+        languageFromLS && setCurrentLocale(languageFromLS)
+    },[locale])
 
+
+    const handleLanguageChange = () => {
+        let languageFromLS = localStorage.getItem('language')
+        languageFromLS && setCurrentLocale(languageFromLS)
     }
+
+    const setLanguageToLS = (languageValue: string) => {
+        localStorage.setItem('language', languageValue)
+        handleLanguageChange()
+    }
+
 
     return (
         <IntlProvider messages={messages[currentLocale]}
@@ -31,7 +42,7 @@ function App() {
                       defaultLocale={LOCALES.ENGLISH}>
             <div className="App">
                 <Header
-                    handleChange={handleChange}
+                    setLanguageToLS={setLanguageToLS}
                     currentLocale={currentLocale}/>
                 <Nav/>
                 <Main currentLocale={currentLocale}/>

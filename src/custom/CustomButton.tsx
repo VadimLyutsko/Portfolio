@@ -5,11 +5,11 @@ import styles from './CustomButton.module.css';
 type CustomButtonPropsType = {
     title: string
     language: string
-    handleChange: (value: string) => void
+    setLanguageToLS: (value: string) => void
     currentLocale?: string
 }
 
-const CustomButton: React.FC<CustomButtonPropsType> = ({title, language, handleChange, currentLocale}) => {
+const CustomButton: React.FC<CustomButtonPropsType> = ({title, language, setLanguageToLS, currentLocale}) => {
 
     const lastClassName = currentLocale === 'en-US' && title === 'EN' ?
         styles.colorCustomButton :
@@ -18,7 +18,7 @@ const CustomButton: React.FC<CustomButtonPropsType> = ({title, language, handleC
             styles.unColorCustomButton
     return (
         <button
-            onClick={() => handleChange(language)} value={currentLocale}
+            onClick={() => setLanguageToLS(language)} value={currentLocale}
             className={lastClassName}>
             {title}
         </button>

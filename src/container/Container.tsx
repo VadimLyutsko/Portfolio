@@ -13,13 +13,13 @@ export const Container = () => {
     }
     return (
         <>
-            <Header handleChange={handleChange}/>
-            <Nav/>
-            <Main/>
-            <Skills/>
-            <Projects/>
-            <Contacts/>
-            <Footer/>
+            {/*<Header handleChange={handleChange}/>*/}
+            {/*<Nav/>*/}
+            {/*<Main/>*/}
+            {/*<Skills/>*/}
+            {/*<Projects/>*/}
+            {/*<Contacts/>*/}
+            {/*<Footer/>*/}
         </>
     );
 };

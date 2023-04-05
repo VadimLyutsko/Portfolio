@@ -11,7 +11,8 @@ export const Main:React.FC<MainPropsType> = ({currentLocale}) => {
     const lastTitleClassName =  currentLocale === 'en-US' ? style.titleEn :style.titleRu
 
     return (
-        <div className={style.main}>
+        <>
+        <div className={style.main90}>
             <div className={style.container}>
                 {/*<h6>👋 Hello, My name is</h6>*/}
                 <h6><FormattedMessage id="hello_to"/></h6>
@@ -51,6 +52,8 @@ export const Main:React.FC<MainPropsType> = ({currentLocale}) => {
             {/*    <img src="https://i.pinimg.com/736x/a7/94/50/a79450796ef296bf93ef60971239a72f--beautiful-places.jpg" alt=""/>*/}
             {/*</div>*/}
         </div>
+            <div className={style.main10}></div>
+        </>
     );
 };
 

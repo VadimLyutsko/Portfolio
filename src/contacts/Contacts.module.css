@@ -1,4 +1,7 @@
 .contactsBlock {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
     --tw-bg-opacity: 1;
     background-color: rgb(24 25 29 / var(--tw-bg-opacity));
 }
@@ -23,7 +26,7 @@
 .contactsForm {
     --tw-bg-opacity: 1;
     background-color: rgb(20 20 22 / var(--tw-bg-opacity));
-    width: 50%;
+    /*width: 50%;*/
     border: 1px solid;
     display: flex;
     flex-direction: column;

@@ -17,7 +17,7 @@ export const Main:React.FC<MainPropsType> = ({currentLocale}) => {
                 {/*<h6>👋 Hello, My name is</h6>*/}
                 <h6><FormattedMessage id="hello_to"/></h6>
                 <h1 className={style.myName}><FormattedMessage id="my_name"/></h1>
-                <p><FormattedMessage id="my_prof"/></p>
+                <div className={style.profText}><p className={style.typingText}><FormattedMessage id="my_prof"/></p></div>
                 <p className={style.myDescription}>
                     <FormattedMessage id="about_me"/>
                 </p>

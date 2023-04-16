@@ -143,3 +143,37 @@
     transform: translateX(100%);
     transition: all .4s ease;
 }
+
+.profText {
+    /*height: 100vh;*/
+    /*!*This part is important for centering*!*/
+    /*display: grid;*/
+    /*place-items: center;*/
+    font-size: 15px;
+    font-weight: 400;
+    /*background-color: #ab8484;*/
+}
+
+.typingText {
+    width: 270px;
+    animation: typing 4s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}

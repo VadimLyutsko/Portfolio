@@ -90,9 +90,9 @@ export const Contacts = () => {
                         </FormGroup>
                     </form>
                     <FormLabel className={style.contactsForm}>
-                        <p>Рад приветствовать dас в своей социальной сети </p>
+                        <p>Рад приветствовать Вас  </p>
                         <p>детальнее ознакомиться с моими проектамы вы можете <a
-                            style={{textDecoration: 'none', color: 'black', fontWeight: 'bold'}}
+                            style={{textDecoration: 'none', color: 'green', fontWeight: 'bold'}}
                             href={'https://vadimlyutsko.github.io/Portfolio/'}
                             target={'_blank'}> здесь
                         </a>

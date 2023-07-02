@@ -1,23 +1,54 @@
 import React from 'react';
 import style from './Footer.module.css';
+import {ProjectPropsType} from '../projects/Projects';
+import vkIcon from './vk-svgrepo-com.svg'
 
+export type ContactsPropsType = {
+    linkToContact: string
+    icon: string
+    id: number
+}
 
 export const Footer = () => {
-
+    const ContactState: ContactsPropsType[] = [
+        {
+            id: 1,
+            icon: 'https://www.svgrepo.com/show/242473/vk-vk.svg',
+            linkToContact: 'https://vk.com/oosoby'
+        },
+        {
+            id: 2,
+            icon: 'https://www.svgrepo.com/show/242486/instagram.svg',
+            linkToContact: 'https://www.instagram.com/lycko.x_x'
+        },
+        {
+            id: 3,
+            icon: 'https://www.svgrepo.com/show/242474/linkedin.svg',
+            linkToContact: 'https://www.linkedin.com/in/lyutsko/'
+        },
+        {
+            id: 4,
+            icon: 'https://www.svgrepo.com/show/242481/telegram.svg',
+            linkToContact: 'https://t.me/Vadimgreens'
+        },
+    ];
 
     return (
-        <div id={'footer'} className={style.contactsBlock}>
+        <div id={'footer'} className={style.contacts}>
+            <div className={style.contactsForm}>
 
-        <div className={style.contacts}>
-            <h2> Vadim Lyutsko</h2>
-            <div className={style.contactsForm} >
-                <div className={style.miniLogo}>1</div>
-                <div className={style.miniLogo}>2</div>
-                <div className={style.miniLogo}>3</div>
-                <div className={style.miniLogo}>4</div>
+                {
+                    ContactState.map(fab =>
+
+                        <a href={fab.linkToContact}>
+                            <div style={{backgroundImage: `url(${fab.icon})`}}
+                                 className={style.miniLogo}>
+                            </div>
+                        </a>
+                    )
+                }
+
             </div>
-            <p className={style.footerText}>All rights reserved </p>
-        </div>
         </div>
     );
 };

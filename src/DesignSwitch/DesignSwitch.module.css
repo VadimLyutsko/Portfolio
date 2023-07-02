@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     /*border: 1px solid #2e313b;*/
-    color: #fdfdfe;
+    /*color: #fdfdfe;*/
     font-size: 18px;
     margin-bottom: 25px;
 }
@@ -15,12 +15,14 @@
 
     width: 60px;
     height: 60px;
-    border-radius: 30px;
-    font-weight: bold;
-    font-size: 20px;
-    color: #fdfdfe;
-    background-color: #970707;
+    /*color: #fdfdfe;*/
+    background-image: url(https://www.svgrepo.com/show/226546/music-music-and-multimedia.svg);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    /*background-color: #756f6f;*/
+    background-size: cover;
+    background-position: center;
+cursor: pointer;
 }

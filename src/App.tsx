@@ -53,7 +53,7 @@ function App() {
                 <Main currentLocale={currentLocale}/>
                 <Skills/>
                 <Projects/>
-                <Contacts/>
+                {/*<Contacts/>*/}
                 <Footer/>
                 {/*<Routes>*/}
                 {/*    <Route path={'/'} element={<Container/>}/>*/}

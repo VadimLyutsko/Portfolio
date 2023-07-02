@@ -35,7 +35,7 @@ ol, ul, menu {
 
 
 .navLiLogo{
-    background-color: #fd9202;
+    background-color: #b23f4a;
     width: 80px;
     height: 60px;
     display: flex;
@@ -59,12 +59,12 @@ ol, ul, menu {
 }
 
 .navItem :hover{
-    color: #fd9202;
+    color: #b23f4a;
 }
 
 .navItem > .active {
     /*border-bottom: 1px solid #ffffff;*/
-    color: #fd9202;
+    color: #b23f4a;
 }
 
 

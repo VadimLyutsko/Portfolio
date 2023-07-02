@@ -1,6 +1,6 @@
 import React from 'react';
 // @ts-ignore
-import sound from './sound.mp3';
+import sound from './soundd.mp3';
 import style from './DesignSwitch.module.css';
 
 export const DesignSwitch = () => {
@@ -16,14 +16,14 @@ export const DesignSwitch = () => {
     };
 
     const clickHandler = () => {
-        alert('Ты что, дурак? Зачем ты тыкаешь')
+        alert('Может ещё куда-нибудь ткнешь??')
         play()
     }
 
     return (
         <div style={musicStyle} className={style.switch}>
 
-            <button className={style.switchButton} onClick={clickHandler}>Click!</button>
+            <span className={style.switchButton} onClick={clickHandler}></span>
         </div>
     );
 };

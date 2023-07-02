@@ -49,18 +49,18 @@ export const Nav = () => {
                     </Link>
                 </li>
 
-                <li className={style.navItem}>
-                    <Link
-                        activeClass={style.active}
-                        to="contacts"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                    >
-                        <FormattedMessage id="contacts"/>
-                    </Link>
-                </li>
+                {/*<li className={style.navItem}>*/}
+                {/*    <Link*/}
+                {/*        activeClass={style.active}*/}
+                {/*        to="contacts"*/}
+                {/*        spy={true}*/}
+                {/*        smooth={true}*/}
+                {/*        offset={-70}*/}
+                {/*        duration={500}*/}
+                {/*    >*/}
+                {/*        <FormattedMessage id="contacts"/>*/}
+                {/*    </Link>*/}
+                {/*</li>*/}
 
 
                 <li className={style.navItem}>

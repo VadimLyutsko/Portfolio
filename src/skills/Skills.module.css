@@ -13,10 +13,10 @@
 }
 
 .title {
-    margin-top: -10px;
+    /*margin-top: 10px;*/
     font-size: 50px;
     font-weight: 600;
-    color: white;
+    color: #b23f4a;
 }
 
 .skills {

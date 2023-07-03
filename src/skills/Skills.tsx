@@ -17,20 +17,24 @@ export const Skills = () => {
         {
             id: 1,
             title: 'Html',
-            icon: 'https://i.ytimg.com/vi/jMta42LK1nE/maxresdefault.jpg',
+            icon: 'https://www.ozgurceyaz.com/wp-content/uploads/2017/01/html-web-sayfasi-olusturma-web-tasarim-dersleri-1-6.jpg',
             description:
                 <p><FormattedMessage id="html_skill"/> <a style={{textDecoration: 'none'}}
-                                                                   href="https://www.code.mu/ru/markup/book/prime/">📚.</a>
+                                                          href="https://www.code.mu/ru/markup/book/prime/"> 📗 </a>
                 </p>
         },
-
-        // <h6></h6>
-
         {
             id: 2,
             title: 'CSS',
-            icon: 'https://sun9-62.userapi.com/c857624/v857624861/211220/jyy7xAGBFWc.jpg',
-            description: 'Description from props Description from props Description from props '
+            icon: 'https://www.freecodecamp.org/news/content/images/size/w1000/2019/10/css.png',
+            description:
+                <p><FormattedMessage id="css_skill"/> <a style={{textDecoration: 'none'}}
+                                                         href="https://www.code.mu/ru/markup/book/prime/css/intro/"> 📘 </a>
+                    <FormattedMessage id="sass_skill"/><a style={{textDecoration: 'none'}}
+                                                          href="https://sass-scss.ru/"> 📕 </a>
+                    <a style={{textDecoration: 'none'}}
+                       href="https://www.youtube.com/watch?v=TOlqVNC86XI&list=PL0lO_mIqDDFVv3vF9BG1j1RwfGcQEoxs2"> 📙 </a>
+                </p>
         },
         {
             id: 3,

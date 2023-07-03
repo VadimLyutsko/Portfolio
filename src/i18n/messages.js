@@ -15,7 +15,9 @@ export const messages = {
         contacts:'Contacts',
         footer:'Footer',
         // навыки
-        html_skill :' I learned HTML on my own for about 2 months here '
+        html_skill :' I learned HTML on my own for about 1 month here ',
+        css_skill :'I learned CSS on my own  here ',
+        sass_skill :'and Sass here',
 
 
 
@@ -35,6 +37,8 @@ export const messages = {
         contacts:'Контакты',
         footer:'Подвал',
         // навыки
-        html_skill :'Я самостоятельно изучал HTML здесь около 2 месяцев здесь'
+        html_skill :'Я самостоятельно изучал HTML здесь около 1 месяц здесь',
+        css_skill :'Я самостоятельно изучал CSS  здесь ',
+        sass_skill :'и Sass здесь ',
     }
 }

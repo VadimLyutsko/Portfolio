@@ -13,7 +13,9 @@ export const messages = {
         skills:'Skills',
         projects:'Projects',
         contacts:'Contacts',
-        footer:'Footer'
+        footer:'Footer',
+        // навыки
+        html_skill :'I learned HTML on my own for about 2 months here'
     },
 
     [LOCALES.RUSSIAN]: {
@@ -28,6 +30,8 @@ export const messages = {
         skills:'Навыки',
         projects:'Проекты',
         contacts:'Контакты',
-        footer:'Подвал'
+        footer:'Подвал',
+        // навыки
+        html_skill :'Я самостоятельно изучал HTML здесь около 2 месяцев здесь'
     }
 }

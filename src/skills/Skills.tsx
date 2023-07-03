@@ -2,6 +2,7 @@ import React, {ReactElement} from 'react';
 import style from './Skills.module.css';
 import styleContainer from '../container/Container.module.css';
 import {Skill} from './skill/Skill';
+import {FormattedMessage} from 'react-intl';
 
 export type SkillPropsType = {
     description: ReactElement | string
@@ -18,10 +19,13 @@ export const Skills = () => {
             title: 'Html',
             icon: 'https://i.ytimg.com/vi/jMta42LK1nE/maxresdefault.jpg',
             description:
-                <p>'I learned HTML on my own for about 2 months <a style={{textDecoration: 'none', color: 'green'}}
-                                                                   href="https://www.code.mu/ru/markup/book/prime/">here</a>'
+                <p><FormattedMessage id="html_skill"/> <a style={{textDecoration: 'none'}}
+                                                                   href="https://www.code.mu/ru/markup/book/prime/">📚.</a>
                 </p>
         },
+
+        // <h6></h6>
+
         {
             id: 2,
             title: 'CSS',

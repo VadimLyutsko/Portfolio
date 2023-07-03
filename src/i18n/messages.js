@@ -15,7 +15,10 @@ export const messages = {
         contacts:'Contacts',
         footer:'Footer',
         // навыки
-        html_skill :'I learned HTML on my own for about 2 months here'
+        html_skill :' I learned HTML on my own for about 2 months here '
+
+
+
     },
 
     [LOCALES.RUSSIAN]: {

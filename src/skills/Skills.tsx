@@ -42,9 +42,9 @@ export const Skills = () => {
             icon: 'https://res.cloudinary.com/practicaldev/image/fetch/s--e-jk8wPK--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://cl.ly/0d09244c1c6e/Image%25202018-10-11%2520at%25207.20.51%2520PM.png',
             description:
                 <p><FormattedMessage id="js_skill"/> <a style={{textDecoration: 'none'}}
-                                                         href="https://learn.javascript.ru/"> 📒 </a>
+                                                        href="https://learn.javascript.ru/"> 📒 </a>
                     <FormattedMessage id="js_skill_course"/><a style={{textDecoration: 'none'}}
-                                                          href="https://www.itgid.info/ru"> 🎓 </a>
+                                                               href="https://www.itgid.info/ru"> 🎓 </a>
                 </p>
         },
 
@@ -52,7 +52,9 @@ export const Skills = () => {
             id: 4,
             title: 'React',
             icon: 'https://sun9-39.userapi.com/s/v1/if2/0ZAVfo_f6E_dqlHGCmpNOXPq9FS1oqL8FN6FKBdo_A8WZxhFgH_lCJvW4vfWa9gLOxcJTrooRNtFhkQs-a2jesU5.jpg?size=1280x800&quality=96&type=album',
-            description: 'Description from props Description from props Description from props '
+            description:   <p><FormattedMessage id="react_skill"/> <a style={{textDecoration: 'none'}}
+                                                                   href="https://it-incubator.io/"> ⚛️ </a>
+            </p>
         },
         // {
         //     id: 4, title: 'Angular',

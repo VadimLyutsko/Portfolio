@@ -56,20 +56,18 @@ export const Skills = () => {
                                                                    href="https://it-incubator.io/"> ⚛️ </a>
             </p>
         },
-        // {
-        //     id: 4, title: 'Angular',
-        //     icon: 'https://avatars.mds.yandex.net/i?id=f0cc32489e193db71cc840f90dbb3418-6613205-images-thumbs&n=13',
-        //     description: 'Description from props Description from props Description from props '
-        // },
+
+
+
         {
             id: 5, title: 'Redux',
             icon: 'https://chriscourses.com/blog/redux.jpg',
-            description: 'Description from props Description from props Description from props '
+            description: <FormattedMessage id="redux_skill"/>
         },
         {
             id: 6, title: 'Typescript',
             icon: 'https://ykkim97.github.io/assets/built/images/typeScript-logo.png',
-            description: 'Description from props Description from props Description from props '
+            description: <FormattedMessage id='typescript_skill'/>
         },
         {
             id: 7,

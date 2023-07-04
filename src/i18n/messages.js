@@ -20,7 +20,10 @@ export const messages = {
         sass_skill :'and Sass here',
         js_skill :'Here I studied JavaScript on my own for a year',
         js_skill_course :'and graduated from this course',
-        react_skill :'React - this is the library which I studied here (completed a course of 12 months)',
+        react_skill :'React is the library which I studied here (completed a course of 12 months)',
+        redux_skill :'Redux is a library which I studied with Redux in the It-incubator',
+        typescript_skill :'Typescript is a language that I studied with React in an It-incubator',
+        storybook_skill :'Storybook is a tool that I learned together with React in the It Incubator',
 
 
 
@@ -46,6 +49,9 @@ export const messages = {
         js_skill :'Я самостоятельно изучал JavaScript  здесь около года ',
         js_skill_course :'и окончил этот курс',
         react_skill :'React -это та библиотека, которую я изучал здесь (окончил курс из 12 месяцев)',
+        redux_skill :'Redux - это библиотека, которую я изучал вместе с Redux в It-инкубаторе',
+        typescript_skill :'Typescript - это язык, который я изучал вместе с React в It-инкубаторе',
+        storybook_skill :'Storybook- это инструмент , который я изучал вместе с React в It-инкубаторе',
 
     }
 }

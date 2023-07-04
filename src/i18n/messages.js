@@ -7,11 +7,13 @@ export const messages = {
             'Vadim Lyutsko',
         my_prof:
             'I\'M A FRONTEND DEVELOPER',
-        about_me: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut ea, odio odit officiis quisquam sed. Aperiam, autem consequatur deleniti eveniet harum ipsa laudantium libero molestias quas similique soluta, unde voluptate.',
+        about_me: 'Great!!! You have visited my presentation mini-site, where you can get acquainted with the technologies that I own and with the projects that I have worked on. I will be glad to work with you (for you). 👩🏻‍💻 👩🏻‍💻 👩🏻‍💻 :) ',
         download_cv: 'Download CV',
         // меню
         skills:'Skills',
+        my_skills:'My skills',
         projects:'Projects',
+        my_projects:'My projects',
         contacts:'Contacts',
         footer:'Footer',
         // навыки
@@ -35,11 +37,14 @@ export const messages = {
             'Вадим Люцко',
         my_prof:
             'Я РАЗРАБОТЧИК ИНТЕРФЕЙСА',
-        about_me: 'Что-то обо мне - заглушка. Что-то обо мне - заглушка. Что-то обо мне - заглушка. Что-то обо мне - заглушка. Что-то обо мне - заглушка. Что-то обо мне - заглушка. Что-то обо мне - заглушка. Что-то обо мне - заглушка. ',
+        about_me: 'ОТЛИЧНО!!! Вы посетили мой презентационный мини-сайт, на котором сможете ознакомиться с технологиями, которыми я владею, и с проектами, над которыми я работал. Буду рад порабать с Вами (на Вас) 👩🏻‍💻 👩🏻‍💻 👩🏻‍💻 :) ',
+
                 download_cv: 'Скачать резюме',
         // меню
         skills:'Навыки',
+        my_skills:'Мои навыки',
         projects:'Проекты',
+        my_projects:'Мои проекты',
         contacts:'Контакты',
         footer:'Подвал',
         // навыки

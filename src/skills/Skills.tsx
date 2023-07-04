@@ -73,7 +73,7 @@ export const Skills = () => {
             id: 7,
             title: 'Storybook',
             icon: 'https://images.velog.io/images/kimhyo_0218/post/2bd34fd8-1e59-49d9-b490-37997b6e84b5/storybook.webp',
-            description: 'Description from props Description from props Description from props '
+            description: <FormattedMessage id='storybook_skill'/>
         },
     ];
 
@@ -81,7 +81,7 @@ export const Skills = () => {
         <div id={'skills'} className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
 
-                <h2 className={style.title}>Skills </h2>
+                <h2 className={style.title}><FormattedMessage id='my_skills'/> </h2>
 
                 <div className={style.skills}>
                     {

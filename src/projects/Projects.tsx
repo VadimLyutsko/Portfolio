@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Projects.module.css';
 import styleContainer from '../container/Container.module.css';
 import {Project} from './project/Project';
+import {FormattedMessage} from 'react-intl';
 
 export type ProjectPropsType = {
     linkToTheProject: string
@@ -53,7 +54,7 @@ export const Projects = () => {
         <div id={'projects'} className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
 
-                <h2 className={style.title}>My projects</h2>
+                <h2 className={style.title}><FormattedMessage id="my_projects"/></h2>
 
                 <div className={style.skills}>
                     {

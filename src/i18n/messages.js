@@ -18,6 +18,8 @@ export const messages = {
         html_skill :' I learned HTML on my own for about 1 month here ',
         css_skill :'I learned CSS on my own  here ',
         sass_skill :'and Sass here',
+        js_skill :'Here I studied JavaScript on my own for a year',
+        js_skill_course :'and graduated from this course',
 
 
 
@@ -40,5 +42,8 @@ export const messages = {
         html_skill :'Я самостоятельно изучал HTML здесь около 1 месяц здесь',
         css_skill :'Я самостоятельно изучал CSS  здесь ',
         sass_skill :'и Sass здесь ',
+        js_skill :'Я самостоятельно изучал JavaScript  здесь около года ',
+        js_skill_course :'и окончил этот курс',
+
     }
 }

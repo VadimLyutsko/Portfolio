@@ -20,7 +20,7 @@ export const Skills = () => {
             icon: 'https://www.ozgurceyaz.com/wp-content/uploads/2017/01/html-web-sayfasi-olusturma-web-tasarim-dersleri-1-6.jpg',
             description:
                 <p><FormattedMessage id="html_skill"/> <a style={{textDecoration: 'none'}}
-                                                          href="https://www.code.mu/ru/markup/book/prime/"> 📗 </a>
+                                                          href="https://www.code.mu/ru/markup/book/prime/"> 📕 </a>
                 </p>
         },
         {
@@ -31,17 +31,23 @@ export const Skills = () => {
                 <p><FormattedMessage id="css_skill"/> <a style={{textDecoration: 'none'}}
                                                          href="https://www.code.mu/ru/markup/book/prime/css/intro/"> 📘 </a>
                     <FormattedMessage id="sass_skill"/><a style={{textDecoration: 'none'}}
-                                                          href="https://sass-scss.ru/"> 📕 </a>
+                                                          href="https://sass-scss.ru/"> 📗 </a>
                     <a style={{textDecoration: 'none'}}
-                       href="https://www.youtube.com/watch?v=TOlqVNC86XI&list=PL0lO_mIqDDFVv3vF9BG1j1RwfGcQEoxs2"> 📙 </a>
+                       href="https://www.youtube.com/watch?v=TOlqVNC86XI&list=PL0lO_mIqDDFVv3vF9BG1j1RwfGcQEoxs2"> 📓 </a>
                 </p>
         },
         {
             id: 3,
             title: 'JS/ES6+',
             icon: 'https://res.cloudinary.com/practicaldev/image/fetch/s--e-jk8wPK--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://cl.ly/0d09244c1c6e/Image%25202018-10-11%2520at%25207.20.51%2520PM.png',
-            description: 'Description from props Description from props Description from props '
+            description:
+                <p><FormattedMessage id="js_skill"/> <a style={{textDecoration: 'none'}}
+                                                         href="https://learn.javascript.ru/"> 📒 </a>
+                    <FormattedMessage id="js_skill_course"/><a style={{textDecoration: 'none'}}
+                                                          href="https://www.itgid.info/ru"> 🎓 </a>
+                </p>
         },
+
         {
             id: 4,
             title: 'React',

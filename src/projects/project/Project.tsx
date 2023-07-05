@@ -10,7 +10,7 @@ export const Project: React.FC<ProjectPropsType> = ({icon, title, description, l
             <div style={{backgroundImage: `url(${icon})`}}
                  className={style.icon}>
 
-                <a href={linkToTheProject}>
+                <a  target="_blank" href={linkToTheProject}>
                 <button className={style.projectButton}>
                     Посмотреть
                 </button>

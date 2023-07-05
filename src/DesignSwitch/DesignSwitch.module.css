@@ -12,17 +12,13 @@
 }
 
 .switchButton {
-
     width: 60px;
     height: 60px;
-    /*color: #fdfdfe;*/
     background-image: url(https://www.svgrepo.com/show/226546/music-music-and-multimedia.svg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    /*background-color: #756f6f;*/
     background-size: cover;
     background-position: center;
-cursor: pointer;
+    cursor: pointer;
+    border-radius: 10px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(35 38 47 / var(--tw-bg-opacity));
 }

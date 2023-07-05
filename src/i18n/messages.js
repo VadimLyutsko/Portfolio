@@ -11,22 +11,22 @@ export const messages = {
         download_cv: 'Download CV',
         // меню
         skills:'Skills',
-        my_skills:'My skills',
         projects:'Projects',
         my_projects:'My projects',
         contacts:'Contacts',
         footer:'Footer',
         // навыки
+        my_skills:'My skills',
         html_skill :' I learned HTML on my own for about 1 month here ',
         css_skill :'I learned CSS on my own  here ',
         sass_skill :'and Sass here',
         js_skill :'Here I studied JavaScript on my own for a year',
         js_skill_course :'and graduated from this course',
-        react_skill :'React is the library which I studied here (completed a course of 12 months)',
+        react_skill :'React is the library which I studied ( a course of 12 months) here ',
         redux_skill :'Redux is a library which I studied with Redux in the It-incubator',
         typescript_skill :'Typescript is a language that I studied with React in an It-incubator',
         storybook_skill :'Storybook is a tool that I learned together with React in the It Incubator',
-
+        react_query_skill:'React jquery is a library that I am studying now',
 
 
     },
@@ -51,12 +51,14 @@ export const messages = {
         html_skill :'Я самостоятельно изучал HTML здесь около 1 месяц здесь',
         css_skill :'Я самостоятельно изучал CSS  здесь ',
         sass_skill :'и Sass здесь ',
-        js_skill :'Я самостоятельно изучал JavaScript  здесь около года ',
+        js_skill :'Я самостоятельно изучал JavaScript около года здесь',
         js_skill_course :'и окончил этот курс',
-        react_skill :'React -это та библиотека, которую я изучал здесь (окончил курс из 12 месяцев)',
+        react_skill :'React -это та библиотека, которую я изучал (12 месяцев) здесь ',
         redux_skill :'Redux - это библиотека, которую я изучал вместе с Redux в It-инкубаторе',
         typescript_skill :'Typescript - это язык, который я изучал вместе с React в It-инкубаторе',
         storybook_skill :'Storybook- это инструмент , который я изучал вместе с React в It-инкубаторе',
+        react_query_skill:'React query - это библиотека, которую я сейчас изучаю 📑📑  ',
+
 
     }
 }

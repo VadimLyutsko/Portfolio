@@ -75,6 +75,13 @@ export const Skills = () => {
             icon: 'https://images.velog.io/images/kimhyo_0218/post/2bd34fd8-1e59-49d9-b490-37997b6e84b5/storybook.webp',
             description: <FormattedMessage id='storybook_skill'/>
         },
+        {
+            id: 8,
+            title: 'React Query',
+            icon: 'https://miro.medium.com/v2/resize:fit:1200/1*vD4mY6iEQ34HTcAYyPTlnw.png',
+            description: <FormattedMessage id='react_query_skill'/>
+// 📃
+        },
     ];
 
     return (

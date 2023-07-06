@@ -21,7 +21,6 @@ export const DesignSwitch = () => {
     const clickHandler = () => {
         alert('Может ещё куда-нибудь ткнешь??')
         play()
-
     }
 
     return (

@@ -10,7 +10,7 @@ import {Error404} from './components/error/Error404';
 import {IntlProvider} from 'react-intl';
 import {LOCALES} from '../src/i18n/locales'
 import {messages} from '../src/i18n/messages'
-import {ImOnline} from './imOnline/ImOnline';
+import {MyNetworks} from './myNetworks/myNetworks';
 
 function App() {
 
@@ -51,7 +51,7 @@ function App() {
                 <MainPage currentLocale={currentLocale}/>
                 <Skills/>
                 <Projects/>
-                <ImOnline/>
+                <MyNetworks/>
                 {/*<Routes>*/}
                 {/*    <Route path="404" element={<Error404/>}/>*/}
                 {/*    <Route path="*" element={<Navigate to={'404'}/>}/>*/}

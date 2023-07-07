@@ -1,17 +1,4 @@
-.switch {
-    /*background-color: #605d5d;*/
-    width: 85px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*border: 1px solid #2e313b;*/
-    /*color: #fdfdfe;*/
-    font-size: 18px;
-    margin-bottom: 25px;
-}
-
-.switchButton {
+.switchButton {margin-bottom: 25px;
     width: 60px;
     height: 60px;
     background-image: url(some.svg);
@@ -19,6 +6,7 @@
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+
     border-radius: 10px;
     --tw-bg-opacity: 1;
     background-color: rgb(35 38 47 / var(--tw-bg-opacity));

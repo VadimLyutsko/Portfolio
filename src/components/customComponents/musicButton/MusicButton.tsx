@@ -24,7 +24,7 @@ export const MusicButton = () => {
     }
 
     return (
-        <div style={musicStyle} className={style.switch}>
+        <div style={musicStyle}>
 
             <button disabled={disabled} className={style.switchButton} onClick={clickHandler}></button>
         </div>

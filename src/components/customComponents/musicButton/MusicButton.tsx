@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 // @ts-ignore
 import sound from './soundd.mp3';
-import style from './DesignSwitch.module.css';
+import style from './MusicButton.module.css';
 
-export const DesignSwitch = () => {
+export const MusicButton = () => {
 
     const [disabled, setDisabled ] = useState(false)
 

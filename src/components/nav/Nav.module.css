@@ -11,7 +11,7 @@ ol, ul, menu {
     flex-direction: column;
     justify-content: space-between;
     /*margin-right: 5px;*/
-    width: 80px;
+    width: 85px;
     height: 100vh;
     position: fixed;
     border-right-width: 1px;
@@ -36,7 +36,7 @@ ol, ul, menu {
 
 .navLiLogo{
     background-color: #b23f4a;
-    width: 80px;
+    width: 85px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -59,7 +59,7 @@ ol, ul, menu {
 
 .navItem{
     /*background-color: #605d5d;*/
-    width: 80px;
+    width: 85px;
     height: 60px;
     display: flex;
     justify-content: center;

@@ -1,6 +1,6 @@
 import React from 'react';
-import style from './Footer.module.css';
-import {ProjectPropsType} from '../projects/Projects';
+import style from './ImOnline.module.css'
+import {ProjectPropsType} from '../components/projects/Projects';
 import vkIcon from './vk-svgrepo-com.svg'
 
 export type ContactsPropsType = {
@@ -9,7 +9,7 @@ export type ContactsPropsType = {
     id: number
 }
 
-export const Footer = () => {
+export const ImOnline = () => {
     const ContactState: ContactsPropsType[] = [
         {
             id: 1,

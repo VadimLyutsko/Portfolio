@@ -1,12 +1,12 @@
 import React from 'react';
-import style from './Main.module.css';
+import style from './MainPage.module.css';
 import {FormattedMessage} from 'react-intl'
 
 type MainPropsType = {
     currentLocale?: string
 }
 
-export const Main:React.FC<MainPropsType> = ({currentLocale}) => {
+export const MainPage:React.FC<MainPropsType> = ({currentLocale}) => {
 
     const lastTitleClassName =  currentLocale === 'en-US' ? style.titleEn :style.titleRu
 

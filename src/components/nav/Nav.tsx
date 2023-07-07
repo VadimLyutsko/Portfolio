@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Nav.module.css';
 import logo from './logo.svg'
 import {Link, animateScroll as scroll} from 'react-scroll';
-import {DesignSwitch} from '../DesignSwitch/DesignSwitch';
+import {MusicButton} from '../customComponents/musicButton/MusicButton';
 import {FormattedMessage} from 'react-intl'
 
 
@@ -76,7 +76,7 @@ export const Nav = () => {
                     </Link>
                 </li>
             </ul>
-            <DesignSwitch/>
+            <MusicButton/>
         </nav>
 
 

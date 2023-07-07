@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Header.module.css';
-import CustomButton from '../custom/CustomButton';
-import {LOCALES} from '../i18n/locales';
+import CustomButton from '../customComponents/customButton/CustomButton';
+import {LOCALES} from '../../i18n/locales';
 
 type HeaderPropsType = {
     setLanguageToLS: (value: string) => void

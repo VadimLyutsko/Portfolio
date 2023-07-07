@@ -1,6 +1,5 @@
 import React, {ReactElement} from 'react';
 import style from './Skills.module.css';
-import styleContainer from '../container/Container.module.css';
 import {Skill} from './skill/Skill';
 import {FormattedMessage} from 'react-intl';
 
@@ -21,7 +20,7 @@ export const Skills = () => {
             description:
                 <p><FormattedMessage id="html_skill"/> <a target="_blank"
                                                           style={{textDecoration: 'none'}}
-                                                          href="https://www.code.mu/ru/markup/book/prime/"> 📕 </a>
+                                                          href="src/components/skills/Skills"> 📕 </a>
                 </p>
         },
         {
@@ -31,10 +30,10 @@ export const Skills = () => {
             description:
                 <p><FormattedMessage id="css_skill"/> <a target="_blank"
                                                          style={{textDecoration: 'none'}}
-                                                         href="https://www.code.mu/ru/markup/book/prime/css/intro/"> 📘 </a>
+                                                         href="src/components/skills/Skills"> 📘 </a>
                     <FormattedMessage id="sass_skill"/><a target="_blank"
                                                           style={{textDecoration: 'none'}}
-                                                          href="https://sass-scss.ru/"> 📗 </a>
+                                                          href="src/components/skills/Skills"> 📗 </a>
                     <a target="_blank"
                        style={{textDecoration: 'none'}}
                        href="https://www.youtube.com/watch?v=TOlqVNC86XI&list=PL0lO_mIqDDFVv3vF9BG1j1RwfGcQEoxs2"> 📓 </a>
@@ -47,7 +46,7 @@ export const Skills = () => {
             description:
                 <p><FormattedMessage id="js_skill"/> <a target="_blank"
                                                         style={{textDecoration: 'none'}}
-                                                        href="https://learn.javascript.ru/"> 📒 </a>
+                                                        href="src/components/skills/Skills"> 📒 </a>
                     <FormattedMessage id="js_skill_course"/><a target="_blank"
                                                                style={{textDecoration: 'none'}}
                                                                href="https://www.itgid.info/ru"> 🎓 </a>
@@ -60,7 +59,7 @@ export const Skills = () => {
             icon: 'https://sun9-39.userapi.com/s/v1/if2/0ZAVfo_f6E_dqlHGCmpNOXPq9FS1oqL8FN6FKBdo_A8WZxhFgH_lCJvW4vfWa9gLOxcJTrooRNtFhkQs-a2jesU5.jpg?size=1280x800&quality=96&type=album',
             description: <p><FormattedMessage id="react_skill"/> <a target="_blank"
                                                                     style={{textDecoration: 'none'}}
-                                                                    href="https://it-incubator.io/"> ⚛️ </a>
+                                                                    href="src/components/skills/Skills"> ⚛️ </a>
             </p>
         },
 
@@ -92,7 +91,7 @@ export const Skills = () => {
 
     return (
         <div id={'skills'} className={style.skillsBlock}>
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+            <div className={style.container} >
 
                 <h2 className={style.title}><FormattedMessage id="my_skills"/></h2>
 

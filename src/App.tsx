@@ -1,18 +1,16 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
-import {Header} from './header/Header';
-import {Main} from './main/Main';
-import {Skills} from './skills/Skills';
-import {Projects} from './projects/Projects';
-import {Contacts} from './contacts/Contacts';
-import {Footer} from './footer/Footer';
-import {Nav} from './nav/Nav';
-import {Link, Navigate, Route, Routes} from 'react-router-dom';
-import {Error404} from './Error/Error404';
-import {Container} from './container/Container';
+import {Header} from './components/header/Header';
+import {MainPage} from './components/MainPage/MainPage';
+import {Skills} from './components/skills/Skills';
+import {Projects} from './components/projects/Projects';
+import {Nav} from './components/nav/Nav';
+import {Navigate, Route, Routes} from 'react-router-dom';
+import {Error404} from './components/error/Error404';
 import {IntlProvider} from 'react-intl';
 import {LOCALES} from '../src/i18n/locales'
 import {messages} from '../src/i18n/messages'
+import {ImOnline} from './imOnline/ImOnline';
 
 function App() {
 
@@ -50,13 +48,11 @@ function App() {
                     setLanguageToLS={setLanguageToLS}
                     currentLocale={currentLocale}/>
                 <Nav/>
-                <Main currentLocale={currentLocale}/>
+                <MainPage currentLocale={currentLocale}/>
                 <Skills/>
                 <Projects/>
-                {/*<Contacts/>*/}
-                <Footer/>
+                <ImOnline/>
                 {/*<Routes>*/}
-                {/*    <Route path={'/'} element={<Container/>}/>*/}
                 {/*    <Route path="404" element={<Error404/>}/>*/}
                 {/*    <Route path="*" element={<Navigate to={'404'}/>}/>*/}
                 {/*</Routes>*/}

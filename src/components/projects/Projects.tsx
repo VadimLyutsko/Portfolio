@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './Projects.module.css';
-import styleContainer from '../container/Container.module.css';
 import {Project} from './project/Project';
 import {FormattedMessage} from 'react-intl';
 
@@ -52,7 +51,7 @@ export const Projects = () => {
 
     return (
         <div id={'projects'} className={style.skillsBlock}>
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+            <div className={style.container}>
 
                 <h2 className={style.title}><FormattedMessage id="my_projects"/></h2>
 

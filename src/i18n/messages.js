@@ -14,7 +14,7 @@ export const messages = {
         projects:'Projects',
         my_projects:'My projects',
         contacts:'Contacts',
-        footer:'Footer',
+        footer:'I\'m Online',
         // навыки
         my_skills:'My skills',
         html_skill :' I learned HTML on my own for about 1 month here ',
@@ -46,7 +46,7 @@ export const messages = {
         projects:'Проекты',
         my_projects:'Мои проекты',
         contacts:'Контакты',
-        footer:'Подвал',
+        footer:'Я в сети',
         // навыки
         html_skill :'Я самостоятельно изучал HTML здесь около 1 месяц здесь',
         css_skill :'Я самостоятельно изучал CSS  здесь ',

@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './myNetworks.module.css'
-import {ProjectPropsType} from '../components/projects/Projects';
+import {ProjectPropsType} from '../projects/Projects';
 import vkIcon from './vk-svgrepo-com.svg'
 
 export type ContactsPropsType = {

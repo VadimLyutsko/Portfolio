@@ -10,7 +10,7 @@ import {Error404} from './components/error/Error404';
 import {IntlProvider} from 'react-intl';
 import {LOCALES} from '../src/i18n/locales'
 import {messages} from '../src/i18n/messages'
-import {MyNetworks} from './myNetworks/myNetworks';
+import {MyNetworks} from './components/myNetworks/myNetworks';
 
 function App() {
 

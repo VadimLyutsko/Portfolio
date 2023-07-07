@@ -16,7 +16,7 @@ export const Projects = () => {
         {
             id: 1,
             title: 'Social network',
-            icon: 'https://avatars.mds.yandex.net/i?id=47c73e3bf79ebf996023184c9e7dff1efaf9742f-6254930-images-thumbs&n=13',
+            icon: 'https://i.imgur.com/8QeXll7.jpeg',
             description: 'My little social network',
             linkToTheProject: 'https://vadimlyutsko.github.io/The-Way-of-the-Samurai/'
         },

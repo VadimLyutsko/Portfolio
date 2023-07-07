@@ -14,8 +14,9 @@
 .switchButton {
     width: 60px;
     height: 60px;
-    background-image: url(https://www.svgrepo.com/show/226546/music-music-and-multimedia.svg);
-    background-size: cover;
+    background-image: url(some.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
     border-radius: 10px;

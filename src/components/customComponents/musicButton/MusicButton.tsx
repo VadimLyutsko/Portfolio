@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 // @ts-ignore
-import sound from './soundd.mp3';
+import sound from './sound.mp3';
 import style from './MusicButton.module.css';
 
 export const MusicButton = () => {
@@ -19,7 +19,7 @@ export const MusicButton = () => {
     };
 
     const clickHandler = () => {
-        alert('Может ещё куда-нибудь ткнешь??')
+        alert('Ну и чего ты в меня тычешь???')
         play()
     }
 

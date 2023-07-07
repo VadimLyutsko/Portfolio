@@ -17,6 +17,12 @@
 .icon img {
     width: 100%;
     height: 100%;
+    filter: grayscale(1); /* Черно-белый фильтр для изображения */
+    transition: 1s; /* Время изменения цвета изображения */
+}
+
+.icon img:hover{
+    filter: grayscale(0); /* Цветное изображение при наведении */
 }
 
 .title {

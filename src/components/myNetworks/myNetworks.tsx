@@ -33,7 +33,6 @@ export const MyNetworks = () => {
         },
     ];
 
-
     return (
         <div id={'footer'} className={style.contacts}>
             <div className={style.contactsForm}>

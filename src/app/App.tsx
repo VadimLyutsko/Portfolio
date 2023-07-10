@@ -1,16 +1,16 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
-import {Header} from './components/header/Header';
-import {MainPage} from './components/MainPage/MainPage';
-import {Skills} from './components/skills/Skills';
-import {Projects} from './components/projects/Projects';
-import {Nav} from './components/nav/Nav';
+import {Header} from '../components/header/Header';
+import {MainPage} from '../components/MainPage/MainPage';
+import {Skills} from '../components/skills/Skills';
+import {Projects} from '../components/projects/Projects';
+import {Nav} from '../components/nav/Nav';
 import {Navigate, Route, Routes} from 'react-router-dom';
-import {Error404} from './components/error/Error404';
+import {Error404} from '../components/error/Error404';
 import {IntlProvider} from 'react-intl';
-import {LOCALES} from '../src/i18n/locales'
-import {messages} from '../src/i18n/messages'
-import {MyNetworks} from './components/myNetworks/myNetworks';
+import {LOCALES} from '../i18n/locales'
+import {messages} from '../i18n/messages'
+import {MyNetworks} from '../components/myNetworks/myNetworks';
 
 function App() {
 

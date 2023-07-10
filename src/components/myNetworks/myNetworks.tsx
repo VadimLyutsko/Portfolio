@@ -2,6 +2,7 @@ import React from 'react';
 import style from './myNetworks.module.css'
 import {ProjectPropsType} from '../projects/Projects';
 import vkIcon from './vk-svgrepo-com.svg'
+import {useAppSelector} from '../../app/store';
 
 export type ContactsPropsType = {
     linkToContact: string
@@ -10,35 +11,16 @@ export type ContactsPropsType = {
 }
 
 export const MyNetworks = () => {
-    const ContactState: ContactsPropsType[] = [
-        {
-            id: 1,
-            icon: 'https://www.svgrepo.com/show/242473/vk-vk.svg',
-            linkToContact: 'https://vk.com/oosoby'
-        },
-        {
-            id: 2,
-            icon: 'https://www.svgrepo.com/show/242486/instagram.svg',
-            linkToContact: 'https://www.instagram.com/lycko.x_x'
-        },
-        {
-            id: 3,
-            icon: 'https://www.svgrepo.com/show/242474/linkedin.svg',
-            linkToContact: 'https://www.linkedin.com/in/lyutsko/'
-        },
-        {
-            id: 4,
-            icon: 'https://www.svgrepo.com/show/242481/telegram.svg',
-            linkToContact: 'https://t.me/Vadimgreens'
-        },
-    ];
+
+
+const contactState = useAppSelector(state => state.contactState)
 
     return (
         <div id={'footer'} className={style.contacts}>
             <div className={style.contactsForm}>
 
                 {
-                    ContactState.map(fab =>
+                    contactState.map(fab =>
 
                         <a key={fab.id} href={fab.linkToContact}>
                             <div style={{backgroundImage: `url(${fab.icon})`}}

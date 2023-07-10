@@ -1,5 +1,3 @@
-import {ContactsPropsType} from '../components/myNetworks/myNetworks';
-
 type InitialStateType = {
     id: number
     icon: string
@@ -50,15 +48,3 @@ type mySocialNetworksDataActionType = ReturnType<typeof mySocialNetworksDataAC>
 
 type ActionsType =
     mySocialNetworksDataActionType
-
-
-
-// export const setProjectsAC = (projectsData: InitialStateType | null) => ({type: 'successfully', projectsData} as const)
-// // export const setProjectsErrorAC = (someError: InitialStateType) => ({type: 'unsuccessful', someError} as const)
-//
-// type setProjectsActionType = ReturnType<typeof setProjectsAC>
-// // type setProjectsErrorAC = ReturnType<typeof setProjectsErrorAC>
-//
-// type ActionsType =
-//     setProjectsActionType
-// // | setProjectsErrorAC

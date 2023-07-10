@@ -40,7 +40,7 @@ export const MyNetworks = () => {
                 {
                     ContactState.map(fab =>
 
-                        <a href={fab.linkToContact}>
+                        <a key={fab.id} href={fab.linkToContact}>
                             <div style={{backgroundImage: `url(${fab.icon})`}}
                                  className={style.miniLogo}>
                             </div>

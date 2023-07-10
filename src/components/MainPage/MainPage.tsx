@@ -33,7 +33,7 @@ export const MainPage:React.FC<MainPropsType> = ({currentLocale}) => {
 
 
                 <section className={style.works}>
-                    <a className={style.captionLink}>
+                    <div className={style.captionLink}>
                         <div className={lastTitleClassName}>
                             <FormattedMessage id="download_cv"/>
                         </div>
@@ -41,7 +41,7 @@ export const MainPage:React.FC<MainPropsType> = ({currentLocale}) => {
                             <a target={'_blank'} href="https://drive.google.com/file/d/1vz3RgpKKtAdfc_qKsBMjEpYfy69MWPhp/view?usp=share_link"> 👉
                                 📝 👈 </a>
                         </div>
-                    </a>
+                    </div>
                 </section>
 
             </div>

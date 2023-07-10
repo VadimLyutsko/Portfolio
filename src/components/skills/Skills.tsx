@@ -98,12 +98,12 @@ export const Skills = () => {
                 <div className={style.skills}>
                     {
                         skillsState.map(skill =>
-                            <>
+                            <div key={skill.id}>
                                 <Skill description={skill.description}
                                        title={skill.title}
                                        icon={skill.icon}
                                        id={skill.id}/>
-                            </>)
+                            </div>)
                     }
                 </div>
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import style from './myNetworks.module.css'
 import {ProjectPropsType} from '../projects/Projects';
 import vkIcon from './vk-svgrepo-com.svg'
-import {useAppSelector} from '../../app/store';
+import {useAppSelector} from '../../redux/store';
 
 export type ContactsPropsType = {
     linkToContact: string

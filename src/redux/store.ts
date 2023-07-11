@@ -1,7 +1,7 @@
 import {AnyAction, applyMiddleware, combineReducers, legacy_createStore} from 'redux'
 import {TypedUseSelectorHook, useDispatch, useSelector} from "react-redux";
 import thunkMiddleware, {ThunkDispatch} from 'redux-thunk'
-import {socialNetworksReducer} from '../redux/SocialNetworksReducer';
+import {socialNetworksReducer} from './SocialNetworksReducer';
 
 
 // объединяя reducer-ы с помощью combineReducers,

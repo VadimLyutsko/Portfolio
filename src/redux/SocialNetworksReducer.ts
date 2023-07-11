@@ -27,7 +27,6 @@ const initialState = [
     },
 ];
 
-
 export const socialNetworksReducer = (state: InitialStateType[]  = initialState, action: ActionsType): InitialStateType[] => {
     switch (action.type) {
         case 'CORRECT_DATA':

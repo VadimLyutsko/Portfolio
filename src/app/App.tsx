@@ -14,7 +14,6 @@ import {MyNetworks} from '../components/myNetworks/myNetworks';
 
 function App() {
 
-
     const [currentLocale, setCurrentLocale] = useState(getInitialLocale())
 
     useEffect(() => {

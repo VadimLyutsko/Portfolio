@@ -6,23 +6,23 @@
 }
 
 /*Для 25% МОЕГО ЭКРАНА*/
-@media screen and (min-width: 5000px)
-{
-  .App{
-    flex-direction: column;
-    width: 6075px;
-    margin: 0 auto;
-  }
-}
+/*@media screen and (min-width: 5000px)*/
+/*{*/
+/*  .App{*/
+/*    flex-direction: column;*/
+/*    width: 6075px;*/
+/*    margin: 0 auto;*/
+/*  }*/
+/*}*/
 
 
-/*Для 33% МОЕГО ЭКРАНА*/
-@media screen and (min-width: 3500px)
-{
-  .App{
-    flex-direction: column;
-    width: 5000px;
-    margin: 0 auto;
-  }
-}
+/*!*Для 33% МОЕГО ЭКРАНА*!*/
+/*@media screen and (min-width: 3500px)*/
+/*{*/
+/*  .App{*/
+/*    flex-direction: column;*/
+/*    width: 5000px;*/
+/*    margin: 0 auto;*/
+/*  }*/
+/*}*/
 

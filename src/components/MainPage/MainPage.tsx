@@ -52,7 +52,6 @@ export const MainPage:React.FC<MainPropsType> = ({currentLocale}) => {
             {/*    <img src="https://i.pinimg.com/736x/a7/94/50/a79450796ef296bf93ef60971239a72f--beautiful-places.jpg" alt=""/>*/}
             {/*</div>*/}
         </div>
-            {/*<div className={style.main10}></div>*/}
         </>
     );
 };

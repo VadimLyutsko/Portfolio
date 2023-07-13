@@ -27,7 +27,7 @@ export const Header: React.FC<HeaderPropsType> = (
         <>
             <div id={'me'} className={style.header}>
 
-            <span className={style.personalData}>
+            <span  className={style.personalData}>
                 <span>
                     <a href="tel:+375295765841">    {`+ 375 29 576-58-41`}</a>
                 </span>

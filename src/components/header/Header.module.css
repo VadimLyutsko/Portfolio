@@ -4,7 +4,7 @@
     min-height: 54px;
     height: 80px;
     /*--tw-bg-opacity:1;*/
-    /*background-color: rgb(24 25 29 / var( --tw-bg-opacity));*/
+    /*background-color: white;*/
     position: absolute;
     /*opacity: 0.1;*/
     width: 100%;
@@ -36,5 +36,64 @@
     justify-content: center;
     align-items: center;
     width: 200px;
+    opacity: 0.75;
     /*background-color: #3576a6;*/
+}
+
+/*Дальше разработка под мобильные устройстава*/
+
+/* iPhone 12, 12 Pro, 13, 13 Pro (портретный режим) */
+@media  screen and (orientation: portrait) and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3){
+    .header {
+        display: flex;
+        justify-content: space-between;
+        /*min-height: 54px;*/
+        height: 50px;
+        margin-top: 10px;
+        /*--tw-bg-opacity:1;*/
+        /*background-color: white;*/
+        /*position: absolute;*/
+        /*opacity: 0.1;*/
+        width: 100%;
+    }
+
+    .personalData{
+        /*background-color: #9a5151;*/
+        height: 100%;
+        flex-direction: column;
+        color: #FFFFFF;
+        margin: 0 5%;
+        font: italic  all-petite-caps bold 16px/2   Arial;
+        font-size: 0.70rem;
+        line-height: 1.25rem;
+        font-weight: 400;
+    }
+
+    .personalData a{
+        text-decoration: none;
+        color: #FFFFFF;
+
+    }
+
+    .buttonContainer{
+        /*background-color: #3576a6;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin-left: 25px;
+        opacity: 0.75;
+    }
+}
+
+/* iPhone 12, 12 Pro, 13, 13 Pro (альбомный режим) */
+@media only screen and (orientation: landscape) and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3){
+    .bannerContainer{
+        width: 100%;
+        height: 100vh;
+        --tw-bg-opacity: 1;
+        /*background-color: rgb(24 25 29 / var(--tw-bg-opacity));*/
+        background: linear-gradient(0deg, rgb(29, 29, 208) 0%, rgba(24, 25, 30, 1) 100%);
+        display: flex;
+    }
 }

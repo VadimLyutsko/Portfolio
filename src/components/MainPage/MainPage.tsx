@@ -13,13 +13,15 @@ export const MainPage:React.FC<MainPropsType> = ({currentLocale}) => {
     return (
         <>
         <div className={style.main90}>
+            <div className={style.somePage}></div>
             <div className={style.container}>
                 {/*<h6>👋 Hello, My name is</h6>*/}
                 <h5><FormattedMessage id="hello_to_1"/></h5>
                 <h5><FormattedMessage id="hello_to_2"/></h5>
-                <hr/>
                 <h1 className={style.myName}><FormattedMessage id="my_name"/></h1>
+                <hr/>
                 <div className={style.profText}><p className={style.typingText}><FormattedMessage id="my_prof"/></p></div>
+
                 <p className={style.myDescription}>
                     <FormattedMessage id="about_me"/>
                 </p>

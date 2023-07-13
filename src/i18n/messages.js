@@ -2,7 +2,8 @@ import { LOCALES } from './locales'
 
 export const messages = {
     [LOCALES.ENGLISH]: {
-        hello_to: `👋 Hello, My name is`,
+        hello_to_1: `👋 Hello👋 `,
+        hello_to_2: `My name is`,
         my_name:
             'Vadim Lyutsko',
         my_prof:
@@ -32,7 +33,8 @@ export const messages = {
     },
 
     [LOCALES.RUSSIAN]: {
-        hello_to: '👋 Привет, Меня зовут',
+        hello_to_1: `👋 Привет 👋`,
+        hello_to_2: `Меня зовут`,
         my_name:
             'Вадим Люцко',
         my_prof:

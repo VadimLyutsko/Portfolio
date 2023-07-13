@@ -45,6 +45,7 @@
 /* iPhone 12, 12 Pro, 13, 13 Pro (портретный режим) */
 @media  screen and (orientation: portrait) and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3){
     .header {
+        padding: 5px;
         display: flex;
         justify-content: space-between;
         /*min-height: 54px;*/
@@ -59,10 +60,11 @@
 
     .personalData{
         /*background-color: #9a5151;*/
+
         height: 100%;
         flex-direction: column;
         color: #FFFFFF;
-        margin: 0 5%;
+        margin-left: -10px;
         font: italic  all-petite-caps bold 16px/2   Arial;
         font-size: 0.70rem;
         line-height: 1.25rem;

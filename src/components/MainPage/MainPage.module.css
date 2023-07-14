@@ -34,10 +34,32 @@
     /*margin-left: 80px;*/
     margin-left: 10%;
     /*margin-top: 25px;*/
-    margin-top: 7%;
+    margin-top: 8%;
     padding: 50px 10px;
 }
 
+.container h1 {
+    width: 100%;
+    /*margin: 0 0 20px;*/
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /*line-height: 10px;*/
+}
+
+.container h5 {
+    /*width: 50%;*/
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    justify-content: center;
+    line-height: 10px;
+    /*background-color: #9d7373;*/
+}
 
 .container h6, p {
     margin: 0 0 20px;
@@ -46,19 +68,21 @@
     color: white;
 }
 
-.container h1 {
-    margin: 0 0 20px;
-    font-size: 70px;
-    font-weight: 600;
-    color: white;
+.container hr {
+    text-decoration: none;
+    margin-top: -25px;
+    width: 75%;
+    opacity: 0.5;
 }
 
 .myDescription{
     width: 75%;
-    margin: 0 0 20px;
+    margin:  20px auto;
     font-size: 15px;
     font-weight: 400;
     color: white;
+    padding-bottom: 25px;
+
 }
 
 
@@ -68,10 +92,11 @@
     font-size: 30px;
     color: white;
     /*background-color: #ab9999;*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: -28px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    margin-left: 225px;
+    cursor: pointer;
 }
 
 .titleRu{
@@ -80,10 +105,11 @@
     font-size: 30px;
     color: white;
     /*background-color: #ab9999;*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: -2px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    margin-left: 200px;
+    cursor: pointer;
 }
 
 .description {
@@ -91,10 +117,15 @@
     width: 150px;
     font-size: 30px;
     color: white;
-    /*background-color: #cccccc;*/
+/*margin-top: 25px;*/
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all .4s ease;
 }
 
 .description a {
@@ -108,33 +139,27 @@
 }
 
 .titleRu {
-    transition: all .4s ease;
+    transition: all 2s ease;
 }
 
 .titleEn {
-    transition: all .4s ease;
+    transition: all 2s ease;
 }
 
-.description {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateX(-100%);
-    transition: all .4s ease;
-}
+
 
 .captionLink:hover .description {
-    transform: translateX(0);
-    transition: all .4s ease;
+    transform: translateX(45%);
+    transition: all 1s ease;
 }
 
 .captionLink:hover .titleRu {
-    transform: translateX(100%);
+    transform: translateX(55%);
     transition: all .4s ease;
 }
 
 .captionLink:hover .titleEn {
-    transform: translateX(100%);
+    transform: translateX(60%);
     transition: all .4s ease;
 }
 
@@ -146,6 +171,10 @@
     font-size: 15px;
     font-weight: 400;
     /*background-color: #ab8484;*/
+    display: flex;
+    justify-content: center;
+    /*line-height: 10px;*/
+    /*margin: 25px 0;*/
 }
 
 .typingText {

@@ -5,7 +5,7 @@ import {ProjectPropsType} from '../Projects';
 
 export const Project: React.FC<ProjectPropsType> = ({icon, title, description, linkToTheProject}) => {
     return (
-        <div className={style.skill}>
+        <div className={style.project}>
 
             <div style={{backgroundImage: `url(${icon})`}}
                  className={style.icon}>

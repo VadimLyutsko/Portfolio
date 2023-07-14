@@ -85,14 +85,11 @@ export const Skills = () => {
             title: 'React Query',
             icon: 'https://miro.medium.com/v2/resize:fit:1200/1*vD4mY6iEQ34HTcAYyPTlnw.png',
             description: <FormattedMessage id="react_query_skill"/>
-// 📃
         },
     ];
 
     return (
         <div id={'skills'} className={style.skillsBlock}>
-            {/*<div className={style.container} >*/}
-
                 <h2 className={style.title}><FormattedMessage id="my_skills"/></h2>
 
                 <div className={style.skills}>
@@ -106,7 +103,6 @@ export const Skills = () => {
                             </div>)
                     }
                 </div>
-            {/*</div>*/}
         </div>
     );
 };

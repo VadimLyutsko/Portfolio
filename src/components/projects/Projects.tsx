@@ -50,12 +50,11 @@ export const Projects = () => {
     ];
 
     return (
-        <div id={'projects'} className={style.skillsBlock}>
-            <div className={style.container}>
+        <div id={'projects'} className={style.projectsBlock}>
 
                 <h2 className={style.title}><FormattedMessage id="my_projects"/></h2>
 
-                <div className={style.skills}>
+                <div className={style.projects}>
                     {
                         projectState.map(skill =>
                             <div key={skill.id}>
@@ -67,7 +66,6 @@ export const Projects = () => {
                             </div>)
                     }
                 </div>
-            </div>
         </div>
     );
 };

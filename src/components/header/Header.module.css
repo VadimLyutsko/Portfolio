@@ -43,7 +43,7 @@
 /*Дальше разработка под мобильные устройстава*/
 
 /* iPhone 12, 12 Pro, 13, 13 Pro (портретный режим) */
-@media  screen and (orientation: portrait) and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3){
+@media  screen and (orientation: portrait) and (min-device-width: 390px) and (max-device-height: 844px){
     .header {
         padding: 5px;
         display: flex;
@@ -89,7 +89,7 @@
 }
 
 /* iPhone 12, 12 Pro, 13, 13 Pro (альбомный режим) */
-@media only screen and (orientation: landscape) and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3){
+@media only screen and (orientation: landscape) and (min-device-width: 390px) and (max-device-height: 844px) {
     .bannerContainer{
         width: 100%;
         height: 100vh;

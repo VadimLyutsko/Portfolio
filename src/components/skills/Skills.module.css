@@ -36,3 +36,12 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+@media  screen and (orientation: portrait) and (min-device-width: 390px) and (max-device-height: 844px) {
+
+}
+
+/* iPhone 12, 12 Pro, 13, 13 Pro (альбомный режим) */
+@media only screen and (orientation: landscape) and (min-device-width: 390px) and (max-device-height: 844px){
+
+}

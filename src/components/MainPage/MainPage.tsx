@@ -22,6 +22,20 @@ export const MainPage:React.FC<MainPropsType> = ({currentLocale}) => {
                 <hr/>
                 <div className={style.profText}><p className={style.typingText}><FormattedMessage id="my_prof"/></p></div>
 
+
+                <section className={style.works}>
+                    <div className={style.captionLink}>
+                        <div className={lastTitleClassName}>
+                            <FormattedMessage id="download_cv"/>
+                        </div>
+                        <div className={style.description}>
+                            <a target={'_blank'} href="https://drive.google.com/file/d/1vz3RgpKKtAdfc_qKsBMjEpYfy69MWPhp/view?usp=share_link"> 👉
+                                📝 👈 </a>
+                        </div>
+                    </div>
+                </section>
+
+
                 <p className={style.myDescription}>
                     <FormattedMessage id="about_me"/>
                 </p>
@@ -36,17 +50,7 @@ export const MainPage:React.FC<MainPropsType> = ({currentLocale}) => {
                 {/*    </div>*/}
 
 
-                <section className={style.works}>
-                    <div className={style.captionLink}>
-                        <div className={lastTitleClassName}>
-                            <FormattedMessage id="download_cv"/>
-                        </div>
-                        <div className={style.description}>
-                            <a target={'_blank'} href="https://drive.google.com/file/d/1vz3RgpKKtAdfc_qKsBMjEpYfy69MWPhp/view?usp=share_link"> 👉
-                                📝 👈 </a>
-                        </div>
-                    </div>
-                </section>
+
 
             </div>
 

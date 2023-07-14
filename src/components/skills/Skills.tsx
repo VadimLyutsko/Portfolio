@@ -91,7 +91,7 @@ export const Skills = () => {
 
     return (
         <div id={'skills'} className={style.skillsBlock}>
-            <div className={style.container} >
+            {/*<div className={style.container} >*/}
 
                 <h2 className={style.title}><FormattedMessage id="my_skills"/></h2>
 
@@ -106,7 +106,7 @@ export const Skills = () => {
                             </div>)
                     }
                 </div>
-            </div>
+            {/*</div>*/}
         </div>
     );
 };

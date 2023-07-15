@@ -5,7 +5,7 @@
 }
 
 .title {
-    width: 300px;
+    width: 350px;
     font-size: 50px;
     font-weight: 600;
     color: #b23f4a;
@@ -13,49 +13,33 @@
 }
 
 .projects {
-    /*margin-left: 30px;*/
-    /*border: 1px solid;*/
     width: 90%;
     margin:auto;
-    /*background-color: #606b42;*/
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
+/*Дальше разработка под мобильные устройстава*/
+
 /* iPhone 12, 12 Pro, 13, 13 Pro (портретный режим) */
 @media  screen and (orientation: portrait) and (min-device-width: 390px) and (max-device-height: 844px) {
     .projectsBlock {
-        min-height: 100vh;
-        --tw-bg-opacity: 1;
-        background-color: rgb(22 22 22 / var(--tw-bg-opacity));
         display: flex;
-        /*align-items: center;*/
-        /*justify-content: start;*/
         flex-wrap: wrap;
-        /*flex-direction: column;*/
         margin: auto;
     }
 
     .title {
-        width: 270px;
-
-        font-size: 50px;
-        font-weight: 600;
-        color: #b23f4a;
-        margin: 50px auto;
+        width: 350px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
     }
 
     .projects {
-        margin:auto;
-        /*border: 1px solid;*/
         width: 100%;
-        /*background-color: #606b42;*/
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
     }
-
 }
 
 /* iPhone 12, 12 Pro, 13, 13 Pro (альбомный режим) */

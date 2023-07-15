@@ -22,7 +22,7 @@ const contactState = useAppSelector(state => state.contactState)
                 {
                     contactState.map(fab =>
 
-                        <a key={fab.id} href={fab.linkToContact}>
+                        <a key={fab.id}  target="_blank" href={fab.linkToContact}>
                             <div style={{backgroundImage: `url(${fab.icon})`}}
                                  className={style.miniLogo}>
                             </div>

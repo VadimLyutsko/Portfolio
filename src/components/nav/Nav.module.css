@@ -44,14 +44,14 @@ ol, ul, menu {
     /*border: 1px solid #3a3737;*/
     cursor: pointer;
     color:#666;
-    background-image: linear-gradient(to right, #feffff, #a0d8ef); /* Параметры градиента */
-    background-repeat: no-repeat; /* Фон не повторяется */
-    background-size: 0 100%; /* Градиент пока не показываем */
-    border: 1px solid #3a3737; /* Параметры рамки */
-    border-radius: 4px; /* Радиус скругления углов */
-    text-decoration: none; /* Убираем подчёркивание */
-    padding: 5px 15px; /* Расстояние от */
-    transition: 0.4s; /* Время перехода */
+    /*background-image: linear-gradient(to right, #feffff, #a0d8ef); !* Параметры градиента *!*/
+    /*background-repeat: no-repeat; !* Фон не повторяется *!*/
+    /*background-size: 0 100%; !* Градиент пока не показываем *!*/
+    /*border: 1px solid #3a3737; !* Параметры рамки *!*/
+    /*border-radius: 4px; !* Радиус скругления углов *!*/
+    /*text-decoration: none; !* Убираем подчёркивание *!*/
+    /*padding: 5px 15px; !* Расстояние от *!*/
+    /*transition: 0.4s; !* Время перехода *!*/
 }
 .navLiLogo:hover{
     background-size: 100% 100%;

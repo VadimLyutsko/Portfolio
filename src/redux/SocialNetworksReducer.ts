@@ -25,6 +25,11 @@ const initialState = [
         icon: 'https://www.svgrepo.com/show/242481/telegram.svg',
         linkToContact: 'https://t.me/Vadimgreens'
     },
+    {
+        id: 5,
+        icon: 'https://www.svgrepo.com/show/217753/github.svg',
+        linkToContact: 'https://github.com/VadimLyutsko'
+    },
 ];
 
 export const socialNetworksReducer = (state: InitialStateType[]  = initialState, action: ActionsType): InitialStateType[] => {

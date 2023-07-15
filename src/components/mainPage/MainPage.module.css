@@ -239,7 +239,6 @@
     .container {
         width: 390px;
         z-index: 1;
-        opacity: 0.5;
         padding: 0;
     }
 

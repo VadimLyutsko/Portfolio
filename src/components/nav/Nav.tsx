@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Nav.module.css';
 import logo from './logo.svg'
-import {Link, animateScroll as scroll} from 'react-scroll';
+import {Link} from 'react-scroll';
 import {MusicButton} from '../customComponents/musicButton/MusicButton';
 import {FormattedMessage} from 'react-intl'
 

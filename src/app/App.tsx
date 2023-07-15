@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
 import {Header} from '../components/header/Header';
-import {MainPage} from '../components/MainPage/MainPage';
 import {Skills} from '../components/skills/Skills';
 import {Projects} from '../components/projects/Projects';
 import {Nav} from '../components/nav/Nav';
@@ -9,6 +8,7 @@ import {IntlProvider} from 'react-intl';
 import {LOCALES} from '../i18n/locales'
 import {messages} from '../i18n/messages'
 import {MyNetworks} from '../components/myNetworks/myNetworks';
+import {MainPage} from '../components/mainPage/MainPage';
 
 function App() {
 

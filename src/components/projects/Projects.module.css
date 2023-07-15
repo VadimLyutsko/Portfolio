@@ -22,6 +22,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-right: 2%;
 }
 
 /*Дальше разработка под мобильные устройстава*/

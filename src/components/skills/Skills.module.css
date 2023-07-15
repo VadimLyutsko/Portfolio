@@ -22,6 +22,8 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-right: 2%;
+
 }
 
 /* iPhone 12, 12 Pro, 13, 13 Pro (портретный режим) */
@@ -41,7 +43,7 @@
     .skills {
         margin:auto;
         width: 100%;
-    }
+        }
 }
 
 /* iPhone 12, 12 Pro, 13, 13 Pro (альбомный режим) */
@@ -51,9 +53,9 @@
     }
 
      .skills {
-        display: flex;
+         display: flex;
          justify-content: space-evenly;
-        width: 90%;
+         width: 90%;
          margin-right: 1%;
     }
 

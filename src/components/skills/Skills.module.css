@@ -5,7 +5,7 @@
 }
 
 .title {
-    width: 250px;
+    width: 300px;
     font-size: 50px;
     font-weight: 600;
     color: #b23f4a;
@@ -13,11 +13,8 @@
 }
 
 .skills {
-    /*margin-left: 30px;*/
-    /*border: 1px solid;*/
     width: 89%;
     margin:auto;
-    /*background-color: #606b42;*/
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -26,36 +23,20 @@
 /* iPhone 12, 12 Pro, 13, 13 Pro (портретный режим) */
 @media  screen and (orientation: portrait) and (min-device-width: 390px) and (max-device-height: 844px) {
     .skillsBlock {
-        min-height: 100vh;
-        --tw-bg-opacity: 1;
-        background-color: rgb(22 22 22 / var(--tw-bg-opacity));
         display: flex;
-        /*align-items: center;*/
-        /*justify-content: start;*/
         flex-wrap: wrap;
-        /*flex-direction: column;*/
         margin: auto;
     }
 
-
     .title {
-        width: 200px;
-        font-size: 50px;
-        font-weight: 600;
-        color: #b23f4a;
+        width: 300px;
         margin-bottom: 25px;
     }
 
     .skills {
         margin:auto;
-        /*border: 1px solid;*/
         width: 100%;
-        /*background-color: #606b42;*/
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
     }
-
 }
 
 /* iPhone 12, 12 Pro, 13, 13 Pro (альбомный режим) */

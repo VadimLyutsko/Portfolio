@@ -35,30 +35,13 @@ export const MainPage:React.FC<MainPropsType> = ({currentLocale}) => {
                     </div>
                 </section>
 
-
                 <p className={style.myDescription}>
                     <FormattedMessage id="about_me"/>
                 </p>
 
-
-                {/*<div className={style.poster}>Download*/}
-                {/*    CV 📝*/}
-                {/*<div  className={style.myCv}>*/}
-                {/*    <a href="https://drive.google.com/file/d/1vz3RgpKKtAdfc_qKsBMjEpYfy69MWPhp/view?usp=share_link">-----Download*/}
-                {/*        CV 📝</a>*/}
-                {/*</div>*/}
-                {/*    </div>*/}
-
-
-
-
             </div>
 
-
             <div className={style.bannerContainer}></div>
-            {/*<div className={style.photo}>*/}
-            {/*    <img src="https://i.pinimg.com/736x/a7/94/50/a79450796ef296bf93ef60971239a72f--beautiful-places.jpg" alt=""/>*/}
-            {/*</div>*/}
         </div>
         </>
     );

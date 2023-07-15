@@ -8,7 +8,7 @@ type MainPropsType = {
 
 export const MainPage:React.FC<MainPropsType> = ({currentLocale}) => {
 
-    const lastTitleClassName =  currentLocale === 'en-US' ? style.titleEn :style.titleRu
+    const lastTitleClassName =  currentLocale === 'en-US' ? style.resumeBlockEn :style.resumeBlockRu
 
     return (
         <>
@@ -28,7 +28,7 @@ export const MainPage:React.FC<MainPropsType> = ({currentLocale}) => {
                         <div className={lastTitleClassName}>
                             <FormattedMessage id="download_cv"/>
                         </div>
-                        <div className={style.description}>
+                        <div className={style.downloadResumeBlock}>
                             <a target={'_blank'} href="https://drive.google.com/file/d/1vz3RgpKKtAdfc_qKsBMjEpYfy69MWPhp/view?usp=share_link"> 👉
                                 📝 👈 </a>
                         </div>

@@ -21,18 +21,20 @@
 
 
 .title {
-    /*background-color: #b08585;*/
     font-size: 30px;
-    color: white;
+    /*color: white;*/
+    color: #b23f4a;
     margin-bottom: 5px
 }
 
 .description {
-    /*background-color: #966262;*/
     font-size: 20px;
     font-weight: 600;
     color: white;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    text-align: justify;
+
+
 }
 
 .projectButton {

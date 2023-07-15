@@ -2,24 +2,13 @@
     width: 100%;
     height: 100vh;
     --tw-bg-opacity: 1;
-    /*background-color: rgb(24 25 29 / var(--tw-bg-opacity));*/
     background: linear-gradient(0deg, rgba(22,22,23,1) 0%, rgba(24,25,30,1) 100%);
-    /*background: linear-gradient(0deg, rgb(70, 70, 171) 0%, rgba(24,25,30,1) 100%);*/
     display: flex;
 }
 
-/*.main10 {*/
-/*    width: 100%;*/
-/*    height: 10vh;*/
-/*    background: linear-gradient(0deg, rgba(22,22,23,1) 0%, rgba(24,25,30,1) 100%);*/
-/*    display: flex;*/
-/*}*/
-
 .bannerContainer {
     margin-left: 50%;
-    /*background-color: #706565;*/
     width: 880px;
-    /*height: 957px;*/
     background-image: url('home-banner.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -29,27 +18,21 @@
     position: absolute;
     width: 650px;
     height: 400px;
-    /*background-color: #706565;*/
-    /*margin-left: 80px;*/
     margin-left: 10%;
-    /*margin-top: 25px;*/
     margin-top: 8%;
     padding: 50px 10px;
 }
 
 .container h1 {
     width: 100%;
-    /*margin: 0 0 20px;*/
     font-size: 70px;
     font-weight: 600;
     color: white;
     display: flex;
     justify-content: center;
-    /*line-height: 10px;*/
 }
 
 .container h5 {
-    /*width: 50%;*/
     width: 100%;
     font-size: 20px;
     font-weight: 400;
@@ -57,7 +40,6 @@
     display: flex;
     justify-content: center;
     line-height: 10px;
-    /*background-color: #9d7373;*/
 }
 
 .container h6, p {
@@ -81,7 +63,6 @@
     font-weight: 400;
     color: white;
     padding-bottom: 25px;
-
 }
 
 
@@ -90,10 +71,6 @@
     width: 230px;
     font-size: 30px;
     color: white;
-    /*background-color: #ab9999;*/
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
     margin-left: 225px;
     cursor: pointer;
 }
@@ -103,11 +80,7 @@
     width: 230px;
     font-size: 30px;
     color: white;
-    /*background-color: #ab9999;*/
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    margin-left: 200px;
+    margin-left: 235px;
     cursor: pointer;
 }
 
@@ -116,7 +89,6 @@
     width: 150px;
     font-size: 30px;
     color: white;
-/*margin-top: 25px;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,8 +117,6 @@
     transition: all 2s ease;
 }
 
-
-
 .captionLink:hover .description {
     transform: translateX(45%);
     transition: all 1s ease;
@@ -163,17 +133,10 @@
 }
 
 .profText {
-    /*height: 100vh;*/
-    /*!*This part is important for centering*!*/
-    /*display: grid;*/
-    /*place-items: center;*/
     font-size: 15px;
     font-weight: 400;
-    /*background-color: #ab8484;*/
     display: flex;
     justify-content: center;
-    /*line-height: 10px;*/
-    /*margin: 25px 0;*/
 }
 
 .typingText {
@@ -209,18 +172,13 @@
         width: 100%;
         height: 100vh;
         --tw-bg-opacity: 1;
-        /*background-color: rgb(24 25 29 / var(--tw-bg-opacity));*/
         background: linear-gradient(0deg, rgba(22,22,23,1) 85%, rgb(69, 74, 107) 100%);
-        /*background: linear-gradient(0deg, rgb(70, 70, 171) 0%, rgba(24,25,30,1) 100%);*/
         display: flex;
     }
 
     .bannerContainer {
-        /*background-color: #fff;*/
-        /*display: none;*/
         opacity: 0.3;
         width: 100%;
-        /*height: 100px;*/
         margin:60px auto 0 auto;
         z-index: 0;
     }
@@ -230,9 +188,6 @@
         position: absolute;
         width: 390px;
         height: 400px;
-        /*background-color: #8ab78b;*/
-        /*opacity: 0.5;*/
-        /*margin-left: 80px;*/
         z-index: 1;
         padding: 50px 10px;
         margin: 75px auto;
@@ -240,15 +195,12 @@
 
 
     .container h6, p {
-        /*margin: 0 0 20px;*/
         font-size: 20px;
         font-weight: 400;
         color: white;
-        /*margin-left: -25px;*/
     }
 
     .container h5 {
-        /*width: 50%;*/
         width: 100%;
         font-size: 20px;
         font-weight: 400;
@@ -256,11 +208,9 @@
         display: flex;
         justify-content: center;
         line-height: 10px;
-        /*background-color: #9d7373;*/
     }
 
     .container h1 {
-        /*margin: 75px 0 20px;*/
         display: flex;
         justify-content: center;
         font-size: 50px;
@@ -278,9 +228,7 @@
     }
 
     .myDescription{
-        /*background-color: #ab8484;*/
         width: 100%;
-        /*margin-top: 30px;*/
         font-size: 15px;
         font-weight: 400;
         color: white;
@@ -288,15 +236,10 @@
     }
 
     .profText {
-        /*height: 100vh;*/
-        /*!*This part is important for centering*!*/
-        /*display: grid;*/
-        /*place-items: center;*/
         display: flex;
         justify-content: center;
         font-size: 15px;
         font-weight: 400;
-        /*background-color: #ab8484;*/
     }
 
     .titleRu {
@@ -304,10 +247,6 @@
         width: 160px;
         font-size: 30px;
         color: white;
-        /*background-color: #ab9999;*/
-        /*display: flex;*/
-        /*align-items: center;*/
-        /*justify-content: center;*/
         margin:auto;
         cursor: pointer;
     }
@@ -317,10 +256,6 @@
         width: 190px;
         font-size: 30px;
         color: white;
-        /*background-color: #ab9999;*/
-        /*display: flex;*/
-        /*align-items: center;*/
-        /*justify-content: center;*/
         margin:auto;
         cursor: pointer;
     }

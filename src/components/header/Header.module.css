@@ -98,4 +98,12 @@
         background: linear-gradient(0deg, rgb(29, 29, 208) 0%, rgba(24, 25, 30, 1) 100%);
         display: flex;
     }
+
+    .personalData{
+        z-index: 5;
+    }
+
+    .buttonContainer{
+        z-index: 5;
+    }
 }

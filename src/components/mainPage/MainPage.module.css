@@ -260,12 +260,16 @@
         width: 150px;
         margin:auto;
         z-index: 5;
+        display: flex;
+        align-items: center;
     }
 
     .resumeBlockEn {
         width: 175px;
         margin:auto;
         z-index: 5;
+        display: flex;
+        align-items: center;
     }
 
     .myDescription{
@@ -276,4 +280,19 @@
         padding: 0;
     }
 
+
+    .captionLink:hover .downloadResumeBlock {
+        transform: translateX(10%);
+        transition: all 1s ease;
+    }
+
+    .captionLink:hover .resumeBlockRu {
+        transform: translateX(60%);
+        transition: all .4s ease;
+    }
+
+    .captionLink:hover .resumeBlockEn {
+        transform: translateX(45%);
+        transition: all .4s ease;
+    }
 }

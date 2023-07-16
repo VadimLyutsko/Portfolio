@@ -100,10 +100,13 @@
     }
 
     .personalData{
+        width: 650px;
         z-index: 5;
+        /*margin-right:   25px;*/
     }
 
     .buttonContainer{
+        margin-right: 25px;
         z-index: 5;
     }
 }

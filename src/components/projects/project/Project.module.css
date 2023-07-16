@@ -1,6 +1,5 @@
 .project {
-    width: 400px; /* Хочу размеры больше, пофиксим мед-запросами*/
-    /*background-color: #0e3c5a;*/
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +21,6 @@
 
 .title {
     font-size: 30px;
-    /*color: white;*/
     color: #b23f4a;
     margin-bottom: 5px
 }
@@ -33,8 +31,6 @@
     color: white;
     margin-bottom: 20px;
     text-align: justify;
-
-
 }
 
 .projectButton {
@@ -59,11 +55,7 @@
 
 /* iPhone 12, 12 Pro, 13, 13 Pro (портретный режим) */
 @media  screen and (orientation: portrait) and (min-device-width: 390px) and (max-device-height: 844px) {
-
-
-}
-
-/* iPhone 12, 12 Pro, 13, 13 Pro (альбомный режим) */
-@media only screen and (orientation: landscape) and (min-device-width: 390px) and (max-device-height: 844px) {
-
+    .description{
+        /*width: 95%;*/
+    }
 }

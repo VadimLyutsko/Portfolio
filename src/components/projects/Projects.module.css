@@ -38,8 +38,6 @@
     .title {
         width: 350px;
         margin-top: 25px;
-        display: flex;
-        justify-content: center;
     }
 
     .projects {

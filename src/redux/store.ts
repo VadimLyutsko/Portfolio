@@ -3,13 +3,15 @@ import {TypedUseSelectorHook, useDispatch, useSelector} from "react-redux";
 import thunkMiddleware, {ThunkDispatch} from 'redux-thunk'
 import {socialNetworksReducer} from './socialNetworks-Reducer';
 import {projectsReducer} from './projects-Reducer';
+import {skillsReducer} from './skills-Reducer';
 
 
 // объединяя reducer-ы с помощью combineReducers,
 // мы задаём структуру нашего единственного объекта-состояния
 const rootReducer = combineReducers({
     contactsState: socialNetworksReducer,
-    projects:projectsReducer
+    projects:projectsReducer,
+    skills:skillsReducer
 })
 // непосредственно создаём store
 export const store = legacy_createStore(rootReducer, applyMiddleware(thunkMiddleware));

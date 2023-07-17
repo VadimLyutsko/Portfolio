@@ -1,4 +1,4 @@
-import React, {ReactElement} from 'react';
+import React from 'react';
 import style from './Projects.module.css';
 import {Project} from './project/Project';
 import {FormattedMessage} from 'react-intl';

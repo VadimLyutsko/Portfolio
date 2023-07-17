@@ -1,7 +1,12 @@
-import React from 'react';
+import React, {ReactElement} from 'react';
 import style from './Skill.module.css';
-import {SkillPropsType} from '../Skills';
 
+export type SkillPropsType = {
+    description: ReactElement | string
+    title: string
+    icon: string
+    id: number
+}
 
 export const Skill: React.FC<SkillPropsType> = ({icon, title, description, id}) => {
     return (

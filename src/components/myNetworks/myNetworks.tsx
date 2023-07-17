@@ -1,19 +1,12 @@
 import React from 'react';
 import style from './myNetworks.module.css'
-import {ProjectPropsType} from '../projects/Projects';
 import vkIcon from './vk-svgrepo-com.svg'
 import {useAppSelector} from '../../redux/store';
-
-export type ContactsPropsType = {
-    linkToContact: string
-    icon: string
-    id: number
-}
 
 export const MyNetworks = () => {
 
 
-const contactState = useAppSelector(state => state.contactState)
+const contactState = useAppSelector(state => state.contactsState)
 
     return (
         <div id={'footer'} className={style.contacts}>

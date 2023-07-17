@@ -1,7 +1,13 @@
-import React from 'react';
+import React, {ReactElement} from 'react';
 import style from './Project.module.css';
-import {ProjectPropsType} from '../Projects';
 
+export type ProjectPropsType = {
+    linkToTheProject: string
+    description: ReactElement | string
+    title: string
+    icon: string
+    id: number
+}
 
 export const Project: React.FC<ProjectPropsType> = ({icon, title, description, linkToTheProject}) => {
     return (
@@ -15,8 +21,6 @@ export const Project: React.FC<ProjectPropsType> = ({icon, title, description, l
                     Посмотреть
                 </button>
             </a>
-
-
 
 
             </div>

@@ -1,13 +1,15 @@
 import {AnyAction, applyMiddleware, combineReducers, legacy_createStore} from 'redux'
 import {TypedUseSelectorHook, useDispatch, useSelector} from "react-redux";
 import thunkMiddleware, {ThunkDispatch} from 'redux-thunk'
-import {socialNetworksReducer} from './SocialNetworksReducer';
+import {socialNetworksReducer} from './socialNetworks-Reducer';
+import {projectsReducer} from './projects-Reducer';
 
 
 // объединяя reducer-ы с помощью combineReducers,
 // мы задаём структуру нашего единственного объекта-состояния
 const rootReducer = combineReducers({
-    contactState: socialNetworksReducer,
+    contactsState: socialNetworksReducer,
+    projects:projectsReducer
 })
 // непосредственно создаём store
 export const store = legacy_createStore(rootReducer, applyMiddleware(thunkMiddleware));

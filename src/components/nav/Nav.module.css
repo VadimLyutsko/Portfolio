@@ -72,12 +72,12 @@ ol, ul, menu {
 }
 
 .navItem :hover{
-    color: #b23f4a;
+    color: #2B5B9DFF;
 }
 
 .navItem > .active {
     /*border-bottom: 1px solid #ffffff;*/
-    color: #b23f4a;
+    color: #2B5B9DFF;
 }
 
 
